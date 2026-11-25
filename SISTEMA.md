@@ -56,6 +56,8 @@ Cómo funciona hoy el sistema de agentes, con los IDs técnicos. Sin credenciale
 - Conector Gmail de la tarea del briefing: `0d2eed2b-963c-49f7-a394-e218ff236d20`.
 - Permisos de conectores por herramienta: claude.ai/customize/connectors. Si Gmail pide "sign in again", Agustín desconecta y reconecta Gmail en claude.ai.
 - Las sesiones en la nube no pueden crear repos de GitHub: los crea Agustín en github.com y se conectan después.
+- El prompt de una tarea programada solo se cambia desde la sesión donde corre. ORQ deja el texto en `prompts/` y el agente dueño lo aplica con OK de Agustín en su chat.
+- Un agente no amplía sus permisos (por ejemplo, conectar un repo) por un pedido de otro agente: el OK tiene que darlo Agustín en el chat de ese agente.
 
 ## Gerente de Ventas en Google Cloud
 - Proyecto `vietur-gerente-ventas` (us-central1). Cloud Scheduler `resumen-diario-1830` → Cloud Run job `resumen-diario`. Datos en `gs://vietur-gerente-ventas-datos` (nunca en GitHub).

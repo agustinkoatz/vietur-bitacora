@@ -13,6 +13,7 @@ Todo agente de Claude de Agustín lee este archivo antes de trabajar. Solo regla
 - `dominios/`: reglas propias de cada agente (Gmail + Notion, Ventas, Newton PM, Briefing, VIE NEWS).
 - `ARCHIVO/`: lo que ya no rige.
 - `respaldos/`: copias de código que vive fuera de un repo.
+- `prompts/`: texto de los prompts de las tareas programadas (vigentes o propuestos).
 
 ## 1. Quién es Agustín y cómo hablarle
 - Agustín Koatz, 24 años, Gerente Comercial de VIETUR: operador mayorista emisivo B2B (vende a agencias, no al público). VIETUR es dueño de Newton, el buscador de circuitos (miles de circuitos, varios proveedores, algunos por XML en tiempo real y otros con carga manual).
