@@ -59,3 +59,11 @@ Las entradas de la carga inicial (25/11/2026) vienen de los volcados de cada age
 
 2026-11-25 · ORQ · Se crea la BITÁCORA en el repo privado agustinkoatz/vietur-bitacora como fuente única de reglas y decisiones de todos los agentes · que ningún agente dependa del historial de una conversación · Agustín
 2026-11-25 · ORQ · Cada agente conserva su memoria de dominio (CLAUDE.md de ventas, Doc de Newton, prompts); la bitácora tiene lo común, el índice y un resumen por dominio en dominios/ · no duplicar ni inflar REGLAS_VIGENTES · ORQ (a confirmar por Agustín)
+2026-11-25 · ORQ · Agustín aprueba la bitácora v0 · fuente única vigente · Agustín
+2026-11-25 · ORQ · El Google Doc "Memoria del agente – Gmail" pasa a archivo histórico, con aviso arriba que apunta a la bitácora · una sola fuente de verdad · Agustín
+2026-11-25 · ORQ · Los prompts de las tareas programadas se cambian para leer la bitácora en vez del Doc, de a uno y con OK de Agustín por cada cambio · que todos arranquen de la misma fuente · Agustín
+2026-11-25 · ORQ · Copia semanal de la bitácora en Drive (carpeta 5. Agentes IA) · respaldo si falla GitHub · Agustín
+2026-11-25 · ORQ · Copia del script del briefing y del setup script del environment en respaldos/briefing/ · hoy solo vivían en el environment · Agustín
+2026-11-25 · ORQ · Se archiva la sesión "SKILL DE REDACCIÓN AK"; la skill agustin-koatz-voz ya está activa · limpieza · Agustín
+2026-11-25 · VIE NEWS · El horario de la revisión queda como está (viernes 8:38 a 18:38), aunque compita con la aprobación de Cinthia · no complicar · Agustín
+2026-11-25 · Todos · No renovar sesiones por contexto grande: se dejan compactar solas; por eso las decisiones se registran en el momento · menos pasos · Agustín

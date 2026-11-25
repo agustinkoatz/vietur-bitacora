@@ -11,5 +11,6 @@ Fuente única de reglas y decisiones de todos los agentes de Claude. Cualquier a
 | [SISTEMA.md](SISTEMA.md) | Herramientas, IDs técnicos, horarios y vencimientos. |
 | [dominios/](dominios/) | Reglas propias de cada agente. |
 | [ARCHIVO/](ARCHIVO/) | Lo que ya no rige. |
+| [respaldos/](respaldos/) | Copias de código que vive fuera de un repo (script del briefing). |
 
 Mantiene: ORQ. Para cambiar una regla, pedíselo a ORQ o dejá una entrada en `DECISIONES.md`.

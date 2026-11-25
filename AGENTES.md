@@ -16,7 +16,7 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 ### ORQ · Orquestador
 - **Qué hace:** coordina a los agentes, mantiene la bitácora y este registro. No hace el trabajo de otro agente.
 - **Dónde corre:** sesión `session_01Pa7M7i8kbivcgUX2CUsG3j` ("Orquestador de agentes").
-- **Tareas programadas:** ninguna.
+- **Tareas programadas:** "ORQ · Respaldo semanal de la bitácora en Drive" · `trig_01FWjftHJtBMNJy7E5tK8BEV` · viernes 19:07. Dispara en la misma sesión. Reemplaza el contenido del Doc de respaldo, sin crear ni borrar archivos.
 - **Permisos y límites:** escribe en `vietur-bitacora`. Pide OK a Agustín antes de cualquier acción hacia afuera o difícil de deshacer (crear repos, enviar mails, borrar, cambiar tareas programadas o prompts, invitar). No cambia reglas de otros agentes sin OK.
 
 ### Gmail + Notion
@@ -61,7 +61,7 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 
 ## Sesiones que no son agentes
 
-- "SKILL DE REDACCIÓN AK" (`session_01Pa7M7j6DKwDYBhcHx765QF`): armó la skill `agustin-koatz-voz`, que ya está activa en la cuenta. Se puede archivar con OK de Agustín.
+- "SKILL DE REDACCIÓN AK" (`session_01Pa7M7j6DKwDYBhcHx765QF`): armó la skill `agustin-koatz-voz`, que ya está activa en la cuenta. Archivada el 25/11/2026 con OK de Agustín.
 - "GMAIL AGENT" (`session_01Pa7M7ecfGShHe2Fa2hUt58`): archivada, reemplazada por Gmail + Notion.
 
 ## Cómo registrar un agente nuevo

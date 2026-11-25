@@ -81,4 +81,6 @@ Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google 
 - Enviar (salvo el Arranque), reenviar, responder, invitar, crear etiquetas, tocar Google Tasks (ya no se usa), borrar en Notion sin pedido explícito.
 
 ## Sesión del agente
-- Cuando la sesión pase de unos 300.000 tokens de contexto, avisar a Agustín para renovarla. Antes, protocolo de cierre (`DECISIONES.md`). Las tareas programadas se mueven a la sesión nueva y se apagan las viejas solo después de verificar los conectores, con OK de Agustín.
+- No se renueva la sesión: cuando llegue al límite se compacta sola (decisión de Agustín, 25/11/2026). Por eso cada decisión nueva va a `DECISIONES.md` en el momento.
+- Si algún día Agustín pide renovarla: las tareas programadas se mueven a la sesión nueva y se apagan las viejas solo después de verificar los conectores, con su OK.
+- Lo nuevo que aprendas o que decida Agustín va al final de `DECISIONES.md` (commit + push a `main`). El Google Doc viejo es histórico: no se usa ni se edita.

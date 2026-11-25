@@ -12,6 +12,7 @@ Todo agente de Claude de Agustín lee este archivo antes de trabajar. Solo regla
 - `SISTEMA.md`: herramientas, IDs técnicos y vencimientos.
 - `dominios/`: reglas propias de cada agente (Gmail + Notion, Ventas, Newton PM, Briefing, VIE NEWS).
 - `ARCHIVO/`: lo que ya no rige.
+- `respaldos/`: copias de código que vive fuera de un repo.
 
 ## 1. Quién es Agustín y cómo hablarle
 - Agustín Koatz, 24 años, Gerente Comercial de VIETUR: operador mayorista emisivo B2B (vende a agencias, no al público). VIETUR es dueño de Newton, el buscador de circuitos (miles de circuitos, varios proveedores, algunos por XML en tiempo real y otros con carga manual).
@@ -49,7 +50,8 @@ Todo agente de Claude de Agustín lee este archivo antes de trabajar. Solo regla
 
 ## 5. Protocolos
 - **Arranque:** leer este archivo. El resto, solo si la tarea lo pide.
-- **Cierre o compactación:** antes de que la sesión se compacte o se corte, o cuando Agustín lo pida, agregar en `DECISIONES.md` todo lo decidido que no esté registrado. Después se compacta o se abre una sesión nueva.
+- **Registrar en el momento:** cada decisión nueva de Agustín se agrega a `DECISIONES.md` apenas se toma, no al final. Las sesiones se compactan solas sin aviso, así que lo que no está escrito se puede perder.
+- **Cierre o compactación:** antes de que la sesión se corte, o cuando Agustín lo pida, revisar que no quede nada decidido sin registrar en `DECISIONES.md`. No se renuevan sesiones salvo pedido de Agustín: se dejan compactar solas.
 - **Nuevo agente o nueva tarea programada:** avisar a ORQ para que lo registre en `AGENTES.md`.
 - **Cambio de forma de trabajar pedido por Agustín:** el agente actualiza su archivo de `dominios/` o su memoria y deja la entrada en `DECISIONES.md`. Si hay que tocar el prompt de una tarea programada, se le muestra el cambio a Agustín y se aplica con su OK.
 - **Una sola fuente de verdad:** si una memoria de dominio contradice este archivo, manda este archivo y se avisa a ORQ.

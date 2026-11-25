@@ -14,6 +14,7 @@ Cómo funciona hoy el sistema de agentes, con los IDs técnicos. Sin credenciale
 | 8:38 a 18:38 vie, cada hora | Revisión VIE NEWS (sin mails, push si hay revisión) | VIE NEWS |
 | 17:30 vie | Mail "Newton \| Resumen semanal" | Newton PM |
 | 18:30 L-V sin feriados | Mail "Resumen de ventas" | Gerente de Ventas (Google Cloud) |
+| 19:07 vie | Respaldo de la bitácora en Drive | ORQ |
 
 ## Cuentas
 - Claude: cuenta del Gmail personal de Agustín (en las 2 notebooks y el iPhone). Con la cuenta de VIETUR no se ven las sesiones.
@@ -42,6 +43,8 @@ Cómo funciona hoy el sistema de agentes, con los IDs técnicos. Sin credenciale
 - Mi unidad: 1. Comercial `1ksyK3S_9Y7sEMWqIHDOEYB7ZpP54X1xe` · 2. Newton `1d7JAnbkJgWjFhR-1vJL6ggP5WjM1dXiD` · 3. Eventos `1niMottCYcfASfvttBYQ72nuv0yRlkKoR` · 4. Proyecto B2 `17hJn4-GRMzdyI42TBJZG46c0mdXp58pq` · 5. Agentes IA `1qLskR2HbznE4-k3vg-AB5QXSUGxDa58C`.
 - La carpeta "Agencias" es de la oficina: no se toca nunca.
 - Docs de agentes (en 5. Agentes IA): "Memoria del agente – Gmail" `1eJrexoM6_PfZcD_k-jIhbwG3_HsJNdgAfF3jGde6lH8` (histórico cuando se apruebe la bitácora) · "Newton | Historial de resúmenes semanales" `1zr_57QoClJHvNZ9syn2tXRy0QJKRB4nik1gDjIYKX5w` · respaldo "briefing.py" `1QUbGAHiyQSjkrmbUbfKIb2XGQ21WNInA` (desactualizado, versión del 23/11).
+- Respaldo semanal de esta bitácora: Google Doc "BITÁCORA – respaldo semanal (GitHub vietur-bitacora)" `1Vb3NsJcyPJfX7xwt5v78H4sTuVnlfMhZtxRW8hmIQbc` (en 5. Agentes IA). Lo actualiza ORQ los viernes; la versión que manda es la de GitHub.
+- Respaldo del script del briefing: `respaldos/briefing/` de este repo (el de Drive está desactualizado).
 - Manual de voz (respaldo de la skill): Google Doc `1jKZeyYBfFHyHsfyap2GqBaqzP4gwFBnooxBFMGe4lZE`.
 
 ## Trello (Newton)
