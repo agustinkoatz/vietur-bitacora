@@ -70,3 +70,5 @@ Las entradas de la carga inicial (25/11/2026) vienen de los volcados de cada age
 2026-11-25 · Gmail + Notion · Si una reunión que absorbía FUPs se cancela, los temas vuelven a mail o borrador y se reabre el FUP con fecha nueva · práctica del 25/11 · Agustín
 2026-11-25 · Gmail + Notion · Notificaciones automáticas con etiqueta propia (Reservas Nemo) se etiquetan; alertas de seguridad no · orden · Agustín
 2026-11-25 · ORQ · Agustín aprueba el cambio de prompt de las 2 tareas de Gmail + Notion para leer la bitácora (texto en prompts/) · una sola fuente · Agustín
+2026-11-25 · Gmail + Notion · Prompts nuevos de las dos tareas (Arranque trig_01JpRV7QJdXyUzsUemiDLVSS y Revisión 2 h trig_01GTu76zWj9uWovUSkQJkJax) aplicados desde la sesión del agente: leen la bitácora y registran decisiones en DECISIONES.md · OK de Agustín en el chat del agente · Agustín
+2026-11-25 · Gmail + Notion · Cuando ORQ le pide al agente algo que Agustín ya aprobó, el agente lo hace directo, sin volver a pedirle confirmación en su chat · menos pasos · Agustín
