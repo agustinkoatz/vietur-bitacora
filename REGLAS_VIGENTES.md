@@ -51,7 +51,7 @@ Todo agente de Claude de Agustín lee este archivo antes de trabajar. Solo regla
 
 ## 5. Protocolos
 - **Arranque:** leer este archivo. El resto, solo si la tarea lo pide.
-- **Registrar en el momento:** cada decisión nueva de Agustín se agrega a `DECISIONES.md` apenas se toma, no al final. Las sesiones se compactan solas sin aviso, así que lo que no está escrito se puede perder.
+- **Registrar en el momento:** todo cambio o criterio que Agustín le marque a cualquier agente ("para la próxima cambiá A por B", "tomá este criterio") se agrega a `DECISIONES.md` apenas se dice, no al final. Si además cambia una tarea programada propia, el agente actualiza su prompt y la copia en `prompts/`. Las sesiones se compactan solas sin aviso, así que lo que no está escrito se puede perder.
 - **Cierre o compactación:** antes de que la sesión se corte, o cuando Agustín lo pida, revisar que no quede nada decidido sin registrar en `DECISIONES.md`. No se renuevan sesiones salvo pedido de Agustín: se dejan compactar solas.
 - **Nuevo agente o nueva tarea programada:** avisar a ORQ para que lo registre en `AGENTES.md`.
 - **Pedidos de Agustín que pasan por ORQ** (decisión de Agustín, 25/11/2026): si Agustín le pide algo a ORQ y ORQ se lo delega a un agente, el agente lo hace directo, sin volver a pedirle confirmación. ORQ cita siempre en su mensaje la entrada de `DECISIONES.md` donde quedó el pedido de Agustín; sin esa cita, el agente pide OK en su propio chat. Si el control de permisos de la sesión del agente igual lo frena, se le pide a Agustín una línea en ese chat.
