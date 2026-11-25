@@ -1,7 +1,7 @@
 # Agente Gmail + Notion · Arranque del día
 
 - ID: `trig_01JpRV7QJdXyUzsUemiDLVSS` · L-V 8:20 (Buenos Aires) · sesión `session_01Pa7M7gUAcBbeZbqXmQUbpR`
-- Estado: aprobado por Agustín el 25/11/2026 ("OK prompt 1"). Lo aplica el agente Gmail + Notion desde su sesión.
+- Estado: VIGENTE. Aprobado por Agustín el 25/11/2026 ("OK prompt 1"), aplicado por el agente Gmail + Notion y verificado por ORQ el mismo día.
 - Cambios contra la versión anterior: paso 1 lee la bitácora en vez del Doc; paso 10 registra en DECISIONES.md; "de la memoria" pasa a "de la bitácora" en los pasos 4 y 7.
 
 ## Prompt

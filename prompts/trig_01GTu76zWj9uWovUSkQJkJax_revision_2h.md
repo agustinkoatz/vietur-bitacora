@@ -1,7 +1,7 @@
 # Agente Gmail + Notion · Revisión cada 2 horas
 
 - ID: `trig_01GTu76zWj9uWovUSkQJkJax` · L-V 9:20, 11:20, 13:20, 15:20, 17:20, 19:20 (Buenos Aires) · sesión `session_01Pa7M7gUAcBbeZbqXmQUbpR`
-- Estado: aprobado por Agustín el 25/11/2026 ("OK prompt 1"). Lo aplica el agente Gmail + Notion desde su sesión.
+- Estado: VIGENTE. Aprobado por Agustín el 25/11/2026 ("OK prompt 1"), aplicado por el agente Gmail + Notion y verificado por ORQ el mismo día.
 - Cambios contra la versión anterior: paso 1 lee la bitácora en vez del Doc; paso 11 nuevo registra en DECISIONES.md (el viejo 11 pasa a 12); "de la memoria" pasa a "de la bitácora" en el paso 4.
 
 ## Prompt

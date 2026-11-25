@@ -54,6 +54,7 @@ Todo agente de Claude de Agustín lee este archivo antes de trabajar. Solo regla
 - **Registrar en el momento:** cada decisión nueva de Agustín se agrega a `DECISIONES.md` apenas se toma, no al final. Las sesiones se compactan solas sin aviso, así que lo que no está escrito se puede perder.
 - **Cierre o compactación:** antes de que la sesión se corte, o cuando Agustín lo pida, revisar que no quede nada decidido sin registrar en `DECISIONES.md`. No se renuevan sesiones salvo pedido de Agustín: se dejan compactar solas.
 - **Nuevo agente o nueva tarea programada:** avisar a ORQ para que lo registre en `AGENTES.md`.
+- **Cambio de prompt de una tarea programada:** solo se aplica desde la sesión donde corre la tarea. ORQ deja el texto en `prompts/`, Agustín lo aprueba y el agente dueño lo aplica y verifica.
 - **Cambio de forma de trabajar pedido por Agustín:** el agente actualiza su archivo de `dominios/` o su memoria y deja la entrada en `DECISIONES.md`. Si hay que tocar el prompt de una tarea programada, se le muestra el cambio a Agustín y se aplica con su OK.
 - **Una sola fuente de verdad:** si una memoria de dominio contradice este archivo, manda este archivo y se avisa a ORQ.
 

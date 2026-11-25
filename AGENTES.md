@@ -25,7 +25,8 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 - **Tareas programadas** (ambas disparan en la misma sesión):
   - "Agente Gmail + Notion · Arranque del día" · `trig_01JpRV7QJdXyUzsUemiDLVSS` · L-V 8:20 (Buenos Aires). Manda el único mail del día.
   - "Agente Gmail + Notion · Revisión cada 2 horas" · `trig_01GTu76zWj9uWovUSkQJkJax` · L-V 9:20, 11:20, 13:20, 15:20, 17:20, 19:20. Sin mails.
-- **Memoria:** Google Doc "Memoria del agente – Gmail" (`1eJrexoM6_PfZcD_k-jIhbwG3_HsJNdgAfF3jGde6lH8`). Pasa a histórico cuando la bitácora quede aprobada.
+- **Memoria:** `dominios/GMAIL_NOTION.md` de esta bitácora (desde el 25/11/2026). El Google Doc "Memoria del agente – Gmail" es histórico y está bloqueado contra edición. Prompts vigentes en `prompts/`.
+- **Repo:** conectado a `vietur-bitacora` (lee todo; escribe solo en `DECISIONES.md`).
 - **Permisos:** etiquetar (sin crear etiquetas), archivar solo FUP cargados y el informe de backup, escribir en FUPS y BACKLOG según reglas, borrar eventos verdes ya pasados a BACKLOG y SESIÓN 60' según la regla de Gabriela.
 - **Nunca:** enviar (salvo el Arranque a agustin@), reenviar, responder, crear/editar/borrar borradores sin pedido, invitar, tocar Google Tasks ni ROADMAP.
 
