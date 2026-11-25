@@ -3,12 +3,14 @@
 - ID: `trig_016aycM1ajNRYeRc9SQyrvBU`
 - Horario: viernes 17:30 (`CRON_TZ=America/Argentina/Buenos_Aires 30 17 * * 5`)
 - Sesión: `session_01Pa7M7iGhqNWQFj1a8omqsq` (NEWTON PRODUCT MANAGER)
-- Estado: versión anterior al 25/11/2026
+- Estado: VIGENTE desde el 25/11/2026 (aplicado y verificado con get_trigger)
 
 ## Prompt
 
 ```text
 Es viernes 17:30 (hora Argentina): toca el RESUMEN SEMANAL DE NEWTON. Sos el agente Product Manager de Newton para Agustín (Gerente Comercial de VIETUR). Hacé lo siguiente:
+
+0) BITÁCORA: git pull en /home/user/vietur-bitacora y leé REGLAS_VIGENTES.md, dominios/NEWTON_PM.md y las entradas de DECISIONES.md de Newton PM posteriores a la 'Última revisión' de tu dominio. Si chocan con este prompt, mandan las de la bitácora y avisalo en el chat.
 
 1) DATOS (conector Trello). Tablero "DESARROLLO NEWTON": https://trello.com/b/ubQB5nDv/desarrollo-newton (ARI ari:cloud:trello::board/workspace/656f1bc2526ec54b5e36d4e1/6ac3c8b15f4ee3fae6169f92).
 - Ventana: lunes 00:00 a viernes 17:30 de esta semana (America/Argentina/Buenos_Aires, UTC-3). Lo que haya pasado entre el viernes anterior 17:30 y el lunes 00:00 va en un bloque aparte, "Fuera de horario (fin de semana)", si existe.
@@ -31,4 +33,6 @@ Es viernes 17:30 (hora Argentina): toca el RESUMEN SEMANAL DE NEWTON. Sos el age
 3) ARCHIVO. Agregá la semana al final del Google Doc "Newton | Historial de resúmenes semanales" (id 1zr_57QoClJHvNZ9syn2tXRy0QJKRB4nik1gDjIYKX5w), con un título H2 "Semana DD/MM al DD/MM/AAAA" y el mismo contenido. Antes, leé el skill google-workspace (references/docs.md): read_doc, insertar en endIndex-1 con requiredRevisionId y verificar. Si falla la edición del Doc, mandá el mail igual y avisalo en este chat.
 
 4) En este chat, dejá 3 líneas con lo más importante y la confirmación de que el mail salió. Después quedás disponible para las consultas de Agustín, consultando Trello en vivo y el Doc como memoria.
+
+5) Si Agustín te marca un cambio o un criterio nuevo, agregalo en el momento al final de DECISIONES.md (commit y push a main) y, si cambia esta tarea, actualizá este prompt y su copia en prompts/.
 ```
