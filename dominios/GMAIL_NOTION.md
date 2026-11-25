@@ -22,7 +22,7 @@ Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google 
 - Ante la duda, no crear y mencionarlo en el Arranque.
 - Si Agustín pide "agendalo como follow-up" de un borrador, se carga el FUP aunque todavía no lo haya mandado, y se avisa mientras no salga.
 - Esperar algo de Dirección (Vanesa o Alberto) es FUP: a Dirección no se le delega.
-- Un FUP que pasa a tratarse en una reunión de Calendar sale de FUPS y sus temas van en la descripción del evento.
+- Un FUP que pasa a tratarse en una reunión de Calendar sale de FUPS y sus temas van en la descripción del evento. Si esa reunión se cancela, los temas vuelven a mail o borrador y se reabre el FUP con fecha nueva.
 
 ## FUPS: cómo se mueve cada fila
 1. Hilo nuevo con seguimiento: revisar que no exista (por Mail o Tema), crear la fila y archivar. Próximo FUP = fecha del mail; si no hay, externo 3 días hábiles, equipo 2 días hábiles, sin fecha 7 días desde el último movimiento. Tener en cuenta viajes o ausencias conocidas.
@@ -36,16 +36,17 @@ Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google 
 
 ## Etiquetas de Gmail
 - A cada hilo de correspondencia real con un proveedor, cliente, socio o medio que tenga etiqueta propia, se le asigna esa etiqueta (`list_labels` para los IDs). Equivalencias en `SISTEMA.md`.
-- Newsletters, novedades, promos, ofertas masivas y de DMC: sin etiqueta.
+- Las notificaciones automáticas que ya tienen etiqueta propia también se etiquetan (por ejemplo, reservas y cancelaciones de pricenavigator/Nemo van con "Reservas Nemo").
+- Newsletters, novedades, promos, ofertas masivas y de DMC, y alertas de seguridad: sin etiqueta.
 - No todo mail lleva etiqueta: ante la duda, no etiquetar. Nunca crear etiquetas nuevas. No cambiar colores sin aprobación.
 - No existen etiquetas de estado (1 URG, 2 RESP, 3 FUP, 4 FYI): no se crean de nuevo.
-- No tocar etiquetas de otros agentes (VIE NEWS-revisado, GEA-procesado).
+- No tocar etiquetas de otros procesos: "VIE NEWS-revisado" (la aplica el agente VIE NEWS) y "GEA-procesado" (figura en la memoria vieja del 23/11).
 
 ## BACKLOG y tareas con fecha
 - Las tareas con fecha viven en BACKLOG (propiedad Fecha; Repite si se repiten). Calendar queda para reuniones, eventos con horario y las SESIÓN 60'.
 - Si Agustín pide en el chat agendar una tarea para una fecha, va a BACKLOG, no a Calendar.
 - Sin Fecha = backlog libre para las Sesiones 60'.
-- Repetitivas: una sola fila por tarea. Si está en Hecho, la pasada le mueve la Fecha a la próxima ocurrencia futura y la vuelve a Pendiente. Si venció sin Hecho, queda en "Hoy y atrasadas" y se avisa. Si llega la ocurrencia siguiente sin Hecho, se rueda a la fecha actual y se avisa que la anterior no se marcó. Nunca más de una ocurrencia pendiente.
+- Repetitivas: una sola fila por tarea. Si está en Hecho, cualquier pasada (Arranque o cada 2 horas) le mueve la Fecha a la próxima ocurrencia futura y la vuelve a Pendiente. Las vencidas sin Hecho las maneja solo el Arranque: quedan en "Hoy y atrasadas" y se avisa; si llega la ocurrencia siguiente sin Hecho, se rueda a la fecha actual y se avisa que la anterior no se marcó. Nunca más de una ocurrencia pendiente.
 - Días no hábiles (solo repetitivas): si la ocurrencia cae sábado, domingo, feriado o no laborable en Argentina, va al día hábil anterior. La siguiente se calcula desde el día original. Verificar en argentina.gob.ar/interior/feriados.
 - Tareas únicas: mantienen la fecha que eligió Agustín. Al marcarlas Hecho quedan así.
 - Si Agustín crea en Calendar un evento verde de día completo (colorId 10): cargarlo en BACKLOG (título exacto, Fecha, Repite si es serie, descripción completa en Notas), verificar la fila y borrarlo de Calendar directo, sin preguntar. Avisar en el resumen.
@@ -63,7 +64,7 @@ Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google 
 - Nunca enviar, editar ni borrar borradores sin pedido explícito en el chat.
 
 ## Calendar y SESIÓN 60'
-- Calendar: no crear ni editar eventos salvo pedido explícito en el chat. Sin invitados salvo pedido.
+- Calendar: no crear ni editar eventos salvo pedido explícito en el chat. Sin invitados, salvo que Agustín lo pida.
 - Excepciones permanentes de borrado: eventos verdes ya pasados a BACKLOG y ajustes de SESIÓN 60' por la regla de Gabriela. Hay permiso permanente para la herramienta de borrar eventos, pero se borra solo eso o lo que Agustín pida.
 - Cruce con FUPS: si un FUP esperaba agendar o confirmar una reunión y el evento ya está (próximos 30 días), cerrar el FUP con nota del evento. Si una reunión del día trata temas de FUP, mencionarlo.
 - SESIÓN 60' (método de foco): L-V 10:00-11:00; Ma, Mi y Vi 14:30-15:30; Ju 15:00-16:00. Color grafito (colorId 8). Sin tareas en la descripción: en la sesión Agustín escribe al chat y se despejan tareas de BACKLOG y ROADMAP.

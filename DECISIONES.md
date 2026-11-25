@@ -67,3 +67,5 @@ Las entradas de la carga inicial (25/11/2026) vienen de los volcados de cada age
 2026-11-25 · ORQ · Se archiva la sesión "SKILL DE REDACCIÓN AK"; la skill agustin-koatz-voz ya está activa · limpieza · Agustín
 2026-11-25 · VIE NEWS · El horario de la revisión queda como está (viernes 8:38 a 18:38), aunque compita con la aprobación de Cinthia · no complicar · Agustín
 2026-11-25 · Todos · No renovar sesiones por contexto grande: se dejan compactar solas; por eso las decisiones se registran en el momento · menos pasos · Agustín
+2026-11-25 · Gmail + Notion · Si una reunión que absorbía FUPs se cancela, los temas vuelven a mail o borrador y se reabre el FUP con fecha nueva · práctica del 25/11 · Agustín
+2026-11-25 · Gmail + Notion · Notificaciones automáticas con etiqueta propia (Reservas Nemo) se etiquetan; alertas de seguridad no · orden · Agustín
