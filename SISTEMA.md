@@ -15,6 +15,7 @@ Cómo funciona hoy el sistema de agentes, con los IDs técnicos. Sin credenciale
 | 17:30 vie | Mail "Newton \| Resumen semanal" | Newton PM |
 | 18:30 L-V sin feriados | Mail "Resumen de ventas" | Gerente de Ventas (Google Cloud) |
 | 19:07 vie | Respaldo de la bitácora en Drive | ORQ |
+| 19:37 L-V | Consolidación de DECISIONES.md en reglas y dominios | ORQ |
 
 ## Cuentas
 - Claude: cuenta del Gmail personal de Agustín (en las 2 notebooks y el iPhone). Con la cuenta de VIETUR no se ven las sesiones.
