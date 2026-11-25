@@ -54,6 +54,7 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 - **Tareas programadas:**
   - "Briefing diario | Infobae + Ladevi" · `trig_01XHqXLEFnui8vdpgUkC1uq4` · todos los días 8:32 (incluye fines de semana).
   - "Revisión semanal del briefing" · `trig_015KHpgTgTP8KqjBQRSy9h1z` · una sola vez, 02/12/2026 9:00, en la sesión de referencia. Propone ajustes, no los aplica.
+- **Bitácora:** la sesión de referencia está conectada desde el 25/11/2026 (lee todo; escribe en `DECISIONES.md` y en su copia de `prompts/`). Las corridas diarias no la leen, para no subir el costo.
 - **Límites:** un mail por día a agustin@, control de duplicados antes de enviar.
 
 ### VIE NEWS
