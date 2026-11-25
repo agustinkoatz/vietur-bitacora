@@ -35,6 +35,7 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 - **Dónde corre:** sesión `session_01Pa7M7giud2ZzZRiPExnU1u` ("GERENTE DE VENTAS") + repo `agustinkoatz/vietur-gerente-ventas` + Google Cloud (proyecto `vietur-gerente-ventas`).
 - **Tareas programadas:** no son de Claude. Cloud Scheduler `resumen-diario-1830` (L-V 18:30 Buenos Aires, sin feriados) dispara el Cloud Run job `resumen-diario`. Mail de agustin@ a agustin@, asunto "Resumen de ventas · <día> dd/mm" (viernes: "diario + semanal").
 - **Memoria:** `CLAUDE.md` del repo `vietur-gerente-ventas` + documento de definición https://claude.ai/artifact/DHpYeCTN2KMU7A24h8fATs.
+- **Bitácora:** conectado desde el 25/11/2026 (lee todo; escribe solo en `DECISIONES.md`).
 - **Costo:** ~USD 0,02-0,05 por día L-J, ~USD 0,15-0,25 el viernes (crédito prepago de Anthropic, sin recarga automática).
 - **Límites:** solo lectura de casillas; envío solo a agustin@. Pedidos de IA > USD 0,50 piden OK.
 
@@ -43,6 +44,7 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 - **Dónde corre:** sesión `session_01Pa7M7iGhqNWQFj1a8omqsq` ("NEWTON PRODUCT MANAGER").
 - **Tareas programadas:** "Newton PM - Resumen semanal viernes" · `trig_016aycM1ajNRYeRc9SQyrvBU` · viernes 17:30. Dispara en la misma sesión.
 - **Memoria:** Google Doc "Newton | Historial de resúmenes semanales" (`1zr_57QoClJHvNZ9syn2tXRy0QJKRB4nik1gDjIYKX5w`).
+- **Bitácora:** conectado desde el 25/11/2026 (lee todo; escribe solo en `DECISIONES.md`).
 - **Límites:** un solo mail por semana a agustin@. Trello en lectura.
 - **Ojo:** no archivar su sesión: ahí caen el resumen y las consultas ad hoc.
 
