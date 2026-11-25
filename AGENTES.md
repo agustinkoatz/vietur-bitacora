@@ -60,6 +60,7 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 - **Qué hace:** revisa los textos semanales del VIE NEWS que manda Dámaris y propone correcciones para Agustín y un mensaje listo para Dámaris.
 - **Dónde corre:** sesión `session_01Pa7M7gLunZMuKat5FFgVVh` ("VIE NEWS RESUMEN SEMANAL").
 - **Tareas programadas:** "Revisión semanal VIE NEWS" · `trig_01NhZnKRN4cFdnCydfV7BBQH` · viernes cada hora de 8:38 a 18:38. Dispara en la misma sesión.
+- **Bitácora:** conectado desde el 25/11/2026 (lee todo; escribe solo en `DECISIONES.md`).
 - **Límites:** no envía, no responde, no crea borradores. Solo crea/aplica la etiqueta "VIE NEWS-revisado". Push corto cuando hay revisión.
 
 ## Sesiones que no son agentes
