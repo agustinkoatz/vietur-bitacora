@@ -41,6 +41,7 @@ Cómo funciona hoy el sistema de agentes, con los IDs técnicos. Sin credenciale
 - Etiquetas de otros agentes: "VIE NEWS-revisado" (VIE NEWS), "GEA-procesado".
 
 ## Drive
+- Carpeta de minutas de la Reunión Gerencial: `1dsW2gnjW48E0Pso2fg49q1iMsXdBfqJS`.
 - Mi unidad: 1. Comercial `1ksyK3S_9Y7sEMWqIHDOEYB7ZpP54X1xe` · 2. Newton `1d7JAnbkJgWjFhR-1vJL6ggP5WjM1dXiD` · 3. Eventos `1niMottCYcfASfvttBYQ72nuv0yRlkKoR` · 4. Proyecto B2 `17hJn4-GRMzdyI42TBJZG46c0mdXp58pq` · 5. Agentes IA `1qLskR2HbznE4-k3vg-AB5QXSUGxDa58C`.
 - La carpeta "Agencias" es de la oficina: no se toca nunca.
 - Docs de agentes (en 5. Agentes IA): "Memoria del agente – Gmail" `1eJrexoM6_PfZcD_k-jIhbwG3_HsJNdgAfF3jGde6lH8` (histórico cuando se apruebe la bitácora) · "Newton | Historial de resúmenes semanales" `1zr_57QoClJHvNZ9syn2tXRy0QJKRB4nik1gDjIYKX5w` · respaldo "briefing.py" `1QUbGAHiyQSjkrmbUbfKIb2XGQ21WNInA` (desactualizado, versión del 23/11).

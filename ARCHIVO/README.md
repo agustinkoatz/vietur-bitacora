@@ -15,3 +15,4 @@ Reglas y sistemas que ya no rigen. Solo para consulta: ningún agente debe aplic
 - **Tarea de Windows** "Vietur - Resumen diario de ventas": desactivada el 23/11/2026. No reactivarla: duplicaría el resumen.
 - **Apps Script** del briefing: eliminado el 23/11/2026.
 - **Colores anteriores de SESIÓN 60'**: azul, mandarina (6), salvia (2). Vigente: grafito (8).
+- **Gmail + Notion, 26/11/2026:** "mandale un mail a X" = envío directo de mails internos cortos. Reemplazado el mismo día por: borrador, mostrarlo y enviar solo con el sí de Agustín.

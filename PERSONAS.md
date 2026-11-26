@@ -44,6 +44,7 @@ Quién es quién y cómo los trata Agustín. Antes de redactar a alguien, copiar
 - **Gabriela Faingold** y **Lara Crupnicoff**: miembros del tablero de Trello, rol desconocido.
 
 ## Externos
+- **Eli (María Elizabeth Baigorria)**, Universal Assistance (mariabaigorria@universal-assistance.com), GSA del interior: "Hola Eli, cómo estás?" y cierra con "Un beso".
 - **Matías Yaskowiak**: diseñador del VIE NEWS (recibe "Solicitud Newsletter Resumen Semanal"). Tiene etiqueta propia en Gmail.
 - **Carmen Ramírez**: Europamundo.
 - Estilo con externos: "Hola [Nombre], cómo estás?", contexto en 1-2 líneas, pedido explícito, cierre "Quedo atento" o "Un abrazo". Sin abreviaturas informales.

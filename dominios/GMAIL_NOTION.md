@@ -2,7 +2,7 @@
 
 Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google Doc "Memoria del agente – Gmail" (que queda como histórico). IDs en `SISTEMA.md`. Personas en `PERSONAS.md`.
 
-Última revisión: 25/11/2026 · ORQ, con el volcado del agente.
+Última revisión: 26/11/2026 · ORQ (consolidación).
 
 ## Qué revisa en cada pasada
 - Siempre: Gmail (Recibidos, Enviados y borradores), Google Calendar y Notion (FUPS y BACKLOG).
@@ -14,7 +14,10 @@ Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google 
 - Si la próxima acción es de Agustín: queda en Recibidos, sin tocar.
 - Si Agustín espera algo o delegó y cumple el criterio de FUP: fila en FUPS y se archiva el hilo.
 - Si hay dudas: no se archiva, queda en Recibidos y va a "dudas" del Arranque.
-- El agente archiva solo dos cosas: hilos de FUP ya cargados en Notion y el "Informe backup vietur" (vieturbkp@gmail.com).
+- El agente archiva: hilos de FUP ya cargados en Notion, el "Informe backup vietur" (vieturbkp@gmail.com) y, desde el 26/11, los hilos cuyo siguiente paso ya quedó resuelto o programado por el agente (mail programado, borrador aprobado, delegado). El seguimiento queda en la tarea programada o en el FUP.
+- Lo que Agustín resuelve fuera del mail (oficina, WhatsApp) lo avisa en el chat con una línea; el agente actualiza FUPS y BACKLOG sin pedir más contexto. Con externos, Agustín manda un mail corto de confirmación que deja registro.
+- No conectar el WhatsApp personal de Agustín con conectores no oficiales. Lo puntual se pasa por captura o chat exportado.
+- Drive también es fuente: si Agustín menciona un archivo o un mail trae adjuntos de trabajo, buscar en Drive antes de preguntar o duplicar. En BACKLOG, link a la carpeta de Drive en Notas.
 
 ## Criterio de FUP: menos es más
 - Sí: hay una decisión, plata, un socio, proveedor o cliente estratégico, o algo que Agustín necesita sí o sí de vuelta. Ejemplos: contrataciones y entrevistas, eventos que sin él no salen (Mini Brunch), cosas que dependen de una acción suya posterior (comprar un premio cuando le pasan la dirección).
@@ -56,6 +59,20 @@ Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google 
 - BACKLOG y ROADMAP los maneja Agustín: el agente agrega filas solo si él lo pide o por las reglas de arriba. ROADMAP no se toca.
 - No implementar vistas tipo Pareto ("Lo que importa", "Tus 3 de hoy"): Agustín lo rechazó por ahora.
 
+## Envíos a pedido de Agustín (desde 26/11/2026)
+- Si Agustín dice "mandale / enviale un mail a…": el agente arma el borrador en Gmail, se lo muestra en el chat y pregunta "Querés que lo envíe?". Lo manda (con firma) solo cuando Agustín responde que sí; si pide cambios, los aplica y vuelve a preguntar. En las preguntas, ir directo al punto ("Tenemos novedades…?"), sin "Quería saber".
+- "Programalo para tal hora": tarea de una sola vez (send_later) que a esa hora manda ese borrador tal cual (send_message con draftId), verificando antes que siga existiendo. Nunca en horario redondo: "a las 12" se programa 12:07; una hora con minutos se respeta. Solo borradores que Agustín pidió programar.
+- Las pasadas automáticas (Arranque y cada 2 horas) siguen sin enviar nada por su cuenta.
+
+## Pingpong
+- "Pingpongeame": de a un tema por vez, mechando FUPS, BACKLOG, ROADMAP y Gmail (Recibidos y borradores), lo prioritario y rápido primero. Agustín responde corto y el agente actualiza en el momento.
+- Las recurrentes que caen ese día van primero.
+- No preguntar por un FUP de alguien de viaje o ausente si el Próximo FUP ya cae después de su vuelta; cruzar antes con lo que Agustín ya dijo.
+
+## Minuta de la Reunión Gerencial (jueves)
+- Es la "Reunión Planificación" de los jueves a las 12. En la carpeta de minutas de Drive (ver `SISTEMA.md`), duplicar la última minuta, titularla "N+1. Reunion Gerencial DDMMAAAA" y reemplazar el contenido con el mismo formato (Día y hora / Participantes / Temas trabajados, un título en negrita por tema).
+- El contenido lo dicta Agustín en el chat: no inventar temas ni decisiones. Después, marcar Hecho la recurrente "Minuta Reunión Gerencial" y rodarla al jueves siguiente.
+
 ## Borradores
 - En todas las pasadas: `list_drafts`. Agustín a veces pide borradores y se olvida de mandarlos.
 - Arranque: sección "Borradores sin enviar" con destinatario, asunto, desde cuándo y link, marcando los que armó el agente. Se reportan los que tienen destinatario o son de los últimos 30 días.
@@ -75,11 +92,11 @@ Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google 
 
 ## Arranque del día (mail de las 8:20)
 - Único mail del día, a agustin@vietur.com.ar, asunto "Arranque del día | <Día dd/mm>". Sin firma ni nombre del agente. Sin signo de pregunta de apertura.
-- Arriba, links a FUPS y BACKLOG. Secciones: urgentes, tareas de hoy y atrasadas, para responder o hacer, borradores sin enviar, FUP de hoy o vencidos (por persona), FUP que respondieron, FUP sin movimiento hace 7 días o más, plazos de los próximos 3 días hábiles, agenda de hoy con contexto, info@, cambios, dudas y sospechosos.
+- Arriba de todo, bloque destacado "Infaltables de hoy" con las recurrentes de BACKLOG que caen ese día. Después, links a FUPS y BACKLOG. Secciones: urgentes, tareas de hoy y atrasadas, para responder o hacer, borradores sin enviar, FUP de hoy o vencidos (por persona), FUP que respondieron, FUP sin movimiento hace 7 días o más, plazos de los próximos 3 días hábiles, agenda de hoy con contexto, info@, cambios, dudas y sospechosos.
 - Cada ítem de mail con link al hilo. El lunes incluye el fin de semana. No corre sábado ni domingo.
 
 ## Nunca
-- Enviar (salvo el Arranque), reenviar, responder, invitar, crear etiquetas, tocar Google Tasks (ya no se usa), borrar en Notion sin pedido explícito.
+- Enviar por cuenta propia (solo el Arranque y lo que Agustín aprueba en el chat), reenviar, responder, invitar, crear etiquetas, tocar Google Tasks (ya no se usa), borrar en Notion sin pedido explícito.
 
 ## Sesión del agente
 - No se renueva la sesión: cuando llegue al límite se compacta sola (decisión de Agustín, 25/11/2026). Por eso cada decisión nueva va a `DECISIONES.md` en el momento.
