@@ -28,11 +28,16 @@ Arma la minuta de cada Google Meet de Agustín a partir de la transcripción de 
 - Avisar a los externos que hay un notetaker.
 
 ## Reunión Gerencial de los jueves (desde el 27/11/2026)
-- Es la "Reunión Planificación" (jueves 12 a 13), presencial: Fathom no la graba.
+- En el Calendar se llama "Reunión Planificación"; Agustín la llama "Reunión Gerencial". Jueves 12 a 13, presencial: Fathom no la graba.
 - MINUTADOR la minuta **solo cuando Agustín se lo pide por chat**, después de que termina la reunión (o cuando termine, si se movió en el Calendar). El contenido lo dicta Agustín: no inventar temas ni decisiones.
-- Formato de la serie que ya existe: "N+1. Reunion Gerencial DDMMAAAA" (fecha sin barras), con Día y hora / Participantes / Temas trabajados, un título en negrita por tema.
-- Destino: pendiente de Agustín (carpeta de minutas de Drive, como hasta ahora, o MINUTAS en Notion). Para Drive, MINUTADOR necesita el conector de Google Drive.
-- Al terminar, avisarle a Gmail + Notion para que marque Hecho la recurrente "Minuta Reunión Gerencial" y la ruede.
+- **No va a Notion.** Mantiene formato y ubicación: carpeta de minutas de Drive (ver `SISTEMA.md`).
+- Procedimiento (el mismo que usaba Gmail + Notion):
+  1. Buscar en la carpeta la última minuta "N. Reunion Gerencial DDMMAAAA" (la 22 es del 26/11/2026).
+  2. Duplicarla con `copy_file` en la misma carpeta y titularla "N+1. Reunion Gerencial DDMMAAAA" (fecha de la reunión, sin barras ni guiones).
+  3. Reemplazar el contenido respetando el formato: **Día y hora** (ej. "Jueves 26 de Noviembre de 2026." y "Horario: 12:00 hs."), **Participantes**, **Temas trabajados**, con un título en negrita por tema y un párrafo debajo. Editar con el skill google-workspace (references/docs.md): leer, editar con `requiredRevisionId` y verificar.
+  4. Verificar el resultado y mandarle a Agustín el link.
+  5. Avisarle a Gmail + Notion para que marque Hecho la recurrente "Minuta Reunión Gerencial" de BACKLOG y la ruede.
+- No se crea fila en MINUTAS para esta reunión.
 
 ## Pendientes y riesgos
 - Agustín tiene que activar en Fathom la grabación automática de todas las reuniones y el idioma español, y hacer la prueba piloto (MINUTA-1).
