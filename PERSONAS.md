@@ -41,7 +41,8 @@ Quién es quién y cómo los trata Agustín. Antes de redactar a alguien, copiar
 - **Eduardo Denuble "Edu"** (producto@buscadornewton.com.ar): PM / referente de producto de Newton. Cuenta como equipo para FUP.
 - **Nicolás Rosso** y **Fraan Sanchez**: devs.
 - **Gustavo Cabral "Gus"** (gustavo@buscadornewton.com.ar): carga de contenidos de Newton (requisitos, condiciones); prueba y valida del lado de VIETUR. Rol tomado de mails y del tablero, sin confirmar por Agustín. "Hola Gus".
-- **Gabriela Faingold** y **Lara Crupnicoff**: miembros del tablero de Trello de Newton, rol desconocido. Lara Crupnicoff no es la Lara de Producto (esa es Lara Fernández Ayoroa).
+- **Gabriela Faingold**: de TEX (proveedor integrado por API en Newton); aparece en el tablero de Trello hablando del CMS de TEX. Dato del tablero, sin confirmar por Agustín.
+- **Lara Crupnicoff**: miembro del tablero de Trello de Newton, sin actividad y rol desconocido. No es la Lara de Producto (esa es Lara Fernández Ayoroa).
 
 ## Externos
 - **Eli (María Elizabeth Baigorria)**, Universal Assistance (mariabaigorria@universal-assistance.com), GSA del interior: "Hola Eli, cómo estás?" y cierra con "Un beso".
