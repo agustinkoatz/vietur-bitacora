@@ -3,7 +3,7 @@
 - ID: `trig_016aycM1ajNRYeRc9SQyrvBU`
 - Horario: viernes 17:30 (`CRON_TZ=America/Argentina/Buenos_Aires 30 17 * * 5`)
 - Sesión: `session_01Pa7M7iGhqNWQFj1a8omqsq` (NEWTON PRODUCT MANAGER)
-- Estado: VIGENTE desde el 27/11/2026 (suma el mail a Alberto, paso 2b; aplicado y verificado con get_trigger). Versiones anteriores en el historial de git.
+- Estado: VIGENTE desde el 27/11/2026 (suma el mail a Alberto, paso 2b, redactado con la skill agustin-koatz-voz; aplicado y verificado con get_trigger). Versiones anteriores en el historial de git.
 
 ## Prompt
 
@@ -31,6 +31,7 @@ Es viernes 17:30 (hora Argentina): toca el RESUMEN SEMANAL DE NEWTON. Sos el age
 - Si la semana tuvo poca actividad, decilo en una línea; no inventes.
 
 2b) MAIL A ALBERTO (Gmail send_message, htmlBody, includeSignature=true) a acrupnicoff@vietur.com.ar, enseguida después del mail de Agustín. Asunto: "Newton | Resumen semanal DD/MM al DD/MM". Es una versión informativa y más suave del mismo resumen. Copiá el formato del mail enviado a Alberto el 27/11/2026 (el ejemplo está en la bitácora, en prompts/trig_016aycM1ajNRYeRc9SQyrvBU_newton_semanal.md):
+- Antes de redactar, cargá la skill agustin-koatz-voz con la herramienta Skill: el mail sale de la casilla de Agustín y con su firma. Mantené el formato y los bloques del ejemplo aprobado el 27/11; la skill manda en el tono, el vocabulario y la redacción.
 - Arranca con "Hola" a secas y la línea "Te comparto el resumen de lo que se trabajó en Newton esta semana (lunes DD/MM al viernes DD/MM)."
 - Bloques: "En pocas palabras" (3 a 5 bullets), "Lo que se terminó", "En qué se está trabajando" y "Lo que viene".
 - Le hablás a Alberto de "vos"; a Agustín lo nombrás en tercera persona ("Agustín la está revisando"). Sale de la casilla de Agustín, con su firma.
