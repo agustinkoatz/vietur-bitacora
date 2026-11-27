@@ -23,7 +23,7 @@ Quién es quién y cómo los trata Agustín. Antes de redactar a alguien, copiar
 | Adriana Sarno | administracion@ | Administración, cobranzas de facturas Newton (TKT, TIJE) | |
 | Natalia Godino | desarrollo@ | Gerente de Desarrollo Estratégico. Recibe altas de agencias (sin FUP) | Naty |
 | Cinthia Sznaider | producto@ | Gerente de Producto. Aprueba el VIE NEWS y, por ahora, también manda sus textos; los viernes manda el "Calendario de difusiones" para aprobar | Cin |
-| Lara | (sin confirmar) | Producto. Por ahora manda los textos del VIE NEWS junto con Cinthia. Apellido y casilla sin confirmar: no asumir que es Lara Crupnicoff ni la Lara de la web VIE | |
+| Lara Fernández Ayoroa | (casilla sin confirmar) | Producto. Por ahora manda los textos del VIE NEWS junto con Cinthia. No es Lara Crupnicoff | |
 | Lucila Hazaña | ventas@ | Gerente de ventas (se la mide como una vendedora más) | Lula |
 | Maribel | ventas1@ | Ventas | |
 | Aixa | ventas3@ | Ventas | |
@@ -41,7 +41,7 @@ Quién es quién y cómo los trata Agustín. Antes de redactar a alguien, copiar
 - **Eduardo Denuble "Edu"** (producto@buscadornewton.com.ar): PM / referente de producto de Newton. Cuenta como equipo para FUP.
 - **Nicolás Rosso** y **Fraan Sanchez**: devs.
 - **Gustavo Cabral "Gus"** (gustavo@buscadornewton.com.ar): carga de contenidos de Newton (requisitos, condiciones); prueba y valida del lado de VIETUR. Rol tomado de mails y del tablero, sin confirmar por Agustín. "Hola Gus".
-- **Gabriela Faingold** y **Lara Crupnicoff**: miembros del tablero de Trello, rol desconocido.
+- **Gabriela Faingold** y **Lara Crupnicoff**: miembros del tablero de Trello de Newton, rol desconocido. Lara Crupnicoff no es la Lara de Producto (esa es Lara Fernández Ayoroa).
 
 ## Externos
 - **Eli (María Elizabeth Baigorria)**, Universal Assistance (mariabaigorria@universal-assistance.com), GSA del interior: "Hola Eli, cómo estás?" y cierra con "Un beso".
