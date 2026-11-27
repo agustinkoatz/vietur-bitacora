@@ -47,7 +47,7 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 - **Tareas programadas:** "Newton PM - Resumen semanal viernes" · `trig_016aycM1ajNRYeRc9SQyrvBU` · viernes 17:30. Dispara en la misma sesión.
 - **Memoria:** Google Doc "Newton | Historial de resúmenes semanales" (`1zr_57QoClJHvNZ9syn2tXRy0QJKRB4nik1gDjIYKX5w`).
 - **Bitácora:** conectado desde el 25/11/2026 (lee todo; escribe solo en `DECISIONES.md`).
-- **Límites:** un solo mail por semana a agustin@. Trello en lectura.
+- **Límites:** dos mails los viernes 17:30: el resumen a agustin@ y, desde el 27/11/2026, una versión informativa a Alberto (acrupnicoff@) desde la casilla de Agustín y con su firma. Trello en lectura.
 - **Ojo:** no archivar su sesión: ahí caen el resumen y las consultas ad hoc.
 
 ### Briefing diario (Infobae + Ladevi)

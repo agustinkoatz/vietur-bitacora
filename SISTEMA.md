@@ -15,7 +15,7 @@ Cómo funciona hoy el sistema de agentes, con los IDs técnicos. Sin credenciale
 | 11:00 a 11:30 jue | Envío de mails desde ventas@davetur.com.ar (Apps Script) | Sheet de Davetur |
 | 8:38 a 18:38 vie, cada hora | Revisión VIE NEWS (sin mails, push si hay revisión) | VIE NEWS |
 | 12:13, 16:13 y 19:13 L-V | Revisión de reuniones grabadas en Fathom y minutas en MINUTAS | MINUTADOR |
-| 17:30 vie | Mail "Newton \| Resumen semanal" | Newton PM |
+| 17:30 vie | Mail "Newton \| Resumen semanal" a Agustín y versión informativa a Alberto | Newton PM |
 | 18:30 L-V sin feriados | Mail "Resumen de ventas" | Gerente de Ventas (Google Cloud) |
 | 19:07 vie | Respaldo de la bitácora en Drive | ORQ |
 | 19:37 L-V | Consolidación de DECISIONES.md en reglas y dominios | ORQ |

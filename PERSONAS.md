@@ -10,7 +10,7 @@ Quién es quién y cómo los trata Agustín. Antes de redactar a alguien, copiar
 - Con él: español rioplatense, directo, sin relleno, pocas exclamaciones, sin emojis. Lenguaje neutro respecto de él.
 
 ## Dirección
-- **Alberto Crupnicoff** (acrupnicoff@): Presidente. Abuelo de Agustín.
+- **Alberto Crupnicoff** (acrupnicoff@): Presidente. Abuelo de Agustín. Recibe los viernes la versión informativa del resumen de Newton.
 - **Vanesa Crupnicoff** (vanesac@): CEO. Mamá de Agustín. **Nunca "Vane" ni su nombre en los mails**: él arranca con "Hola" a secas o entra directo al tema. Temas de fondo: largo, reflexivo, en primera persona, con ejemplos y autocrítica.
 - A Dirección no se le delega: esperar algo de ellos es FUP.
 
@@ -41,7 +41,7 @@ Quién es quién y cómo los trata Agustín. Antes de redactar a alguien, copiar
 - **Eduardo Denuble "Edu"** (producto@buscadornewton.com.ar): PM / referente de producto de Newton. Cuenta como equipo para FUP.
 - **Nicolás Rosso** y **Fraan Sanchez**: devs.
 - **Gustavo Cabral "Gus"** (gustavo@buscadornewton.com.ar): carga de contenidos de Newton (requisitos, condiciones); prueba y valida del lado de VIETUR. Rol tomado de mails y del tablero, sin confirmar por Agustín. "Hola Gus".
-- **Gabriela Faingold**: de TEX (proveedor integrado por API en Newton); aparece en el tablero de Trello hablando del CMS de TEX. Dato del tablero, sin confirmar por Agustín.
+- **Gabriela Faingold**: de TEX (proveedor integrado por API en Newton); aparece en el tablero de Trello hablando del CMS de TEX. Confirmado por Agustín (27/11/2026).
 - **Lara Crupnicoff**: miembro del tablero de Trello de Newton, sin actividad y rol desconocido. No es la Lara de Producto (esa es Lara Fernández Ayoroa).
 
 ## Externos
