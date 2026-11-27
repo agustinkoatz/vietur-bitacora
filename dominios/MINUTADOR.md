@@ -27,8 +27,12 @@ Arma la minuta de cada Google Meet de Agustín a partir de la transcripción de 
 - Si una reunión no tiene grabación, no inventar la minuta y marcarlo.
 - Avisar a los externos que hay un notetaker.
 
-## Reunión Gerencial de los jueves
-- Gmail + Notion ya arma esa minuta en Drive con lo que dicta Agustín. Mientras Agustín no defina si la de Notion la reemplaza, conviven o se excluye, MINUTADOR **no** minuta la Gerencial.
+## Reunión Gerencial de los jueves (desde el 27/11/2026)
+- Es la "Reunión Planificación" (jueves 12 a 13), presencial: Fathom no la graba.
+- MINUTADOR la minuta **solo cuando Agustín se lo pide por chat**, después de que termina la reunión (o cuando termine, si se movió en el Calendar). El contenido lo dicta Agustín: no inventar temas ni decisiones.
+- Formato de la serie que ya existe: "N+1. Reunion Gerencial DDMMAAAA" (fecha sin barras), con Día y hora / Participantes / Temas trabajados, un título en negrita por tema.
+- Destino: pendiente de Agustín (carpeta de minutas de Drive, como hasta ahora, o MINUTAS en Notion). Para Drive, MINUTADOR necesita el conector de Google Drive.
+- Al terminar, avisarle a Gmail + Notion para que marque Hecho la recurrente "Minuta Reunión Gerencial" y la ruede.
 
 ## Pendientes y riesgos
 - Agustín tiene que activar en Fathom la grabación automática de todas las reuniones y el idioma español, y hacer la prueba piloto (MINUTA-1).

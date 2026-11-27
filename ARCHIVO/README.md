@@ -17,3 +17,4 @@ Reglas y sistemas que ya no rigen. Solo para consulta: ningún agente debe aplic
 - **Colores anteriores de SESIÓN 60'**: azul, mandarina (6), salvia (2). Vigente: grafito (8).
 - **Gmail + Notion, 26/11/2026:** "mandale un mail a X" = envío directo de mails internos cortos. Reemplazado el mismo día por: borrador, mostrarlo y enviar solo con el sí de Agustín.
 - **Dámaris Barzante** (producto2@): escribía los textos del VIE NEWS; ya no está en VIETUR desde el 27/11/2026.
+- **Gmail + Notion, 26/11/2026:** armaba la minuta de la Reunión Gerencial de los jueves en Drive. Desde el 27/11/2026 la arma MINUTADOR a pedido de Agustín.

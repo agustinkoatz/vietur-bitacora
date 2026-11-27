@@ -70,8 +70,7 @@ Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google 
 - No preguntar por un FUP de alguien de viaje o ausente si el Próximo FUP ya cae después de su vuelta; cruzar antes con lo que Agustín ya dijo.
 
 ## Minuta de la Reunión Gerencial (jueves)
-- Es la "Reunión Planificación" de los jueves a las 12. En la carpeta de minutas de Drive (ver `SISTEMA.md`), duplicar la última minuta, titularla "N+1. Reunion Gerencial DDMMAAAA" y reemplazar el contenido con el mismo formato (Día y hora / Participantes / Temas trabajados, un título en negrita por tema).
-- El contenido lo dicta Agustín en el chat: no inventar temas ni decisiones. Después, marcar Hecho la recurrente "Minuta Reunión Gerencial" y rodarla al jueves siguiente.
+- Desde el 27/11/2026 la arma MINUTADOR, a pedido de Agustín. Cuando MINUTADOR avisa que la terminó, marcar Hecho la recurrente "Minuta Reunión Gerencial" de BACKLOG y rodarla al jueves siguiente.
 
 ## Borradores
 - En todas las pasadas: `list_drafts`. Agustín a veces pide borradores y se olvida de mandarlos.
