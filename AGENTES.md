@@ -16,7 +16,7 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 ### ORQ · Orquestador
 - **Qué hace:** coordina a los agentes, mantiene la bitácora y este registro. No hace el trabajo de otro agente.
 - **Dónde corre:** sesión `session_01Pa7M7i8kbivcgUX2CUsG3j` ("Orquestador de agentes").
-- **Tareas programadas:** "ORQ · Respaldo semanal de la bitácora en Drive" · `trig_01FWjftHJtBMNJy7E5tK8BEV` · viernes 19:07. Dispara en la misma sesión. Reemplaza el contenido del Doc de respaldo, sin crear ni borrar archivos.
+- **Tareas programadas:** "ORQ · Respaldo semanal de la bitácora en Drive" · `trig_01FWjftHJtBMNJy7E5tK8BEV` · viernes 19:07. Dispara en la misma sesión. Sube un Doc nuevo con fecha a la carpeta "Respaldos bitácora" de Drive; no borra los anteriores.
   - "ORQ · Consolidación diaria de la bitácora" · `trig_01AR9c6XSL4TvSUBXc2r4LGT` · L-V 19:37. Pasa lo nuevo de DECISIONES.md a reglas y dominios; avisa por push solo si algo choca.
   - Recordatorio único 26/11 8:45: verificar el primer Arranque con el prompt nuevo (`trig_01QwxSVto2tnF99rA6q7Cxhr`).
 - **Permisos y límites:** escribe en `vietur-bitacora`. Pide OK a Agustín antes de cualquier acción hacia afuera o difícil de deshacer (crear repos, enviar mails, borrar, cambiar tareas programadas o prompts, invitar). No cambia reglas de otros agentes sin OK.
