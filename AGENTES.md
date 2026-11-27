@@ -91,7 +91,7 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 - **Tareas programadas:** ninguna todavía. Se crea después de la prueba piloto, con OK de Agustín por el consumo.
 - **Estado:** en prueba. Falta que Agustín active la grabación automática en Fathom y haga el piloto.
 - **Memoria:** `dominios/MINUTADOR.md`.
-- **Bitácora:** pendiente de conectar (su control de permisos pide la línea de Agustín en su chat). Mientras tanto, ORQ registra por él.
+- **Bitácora:** conectado desde el 27/11/2026 (lee todo; escribe en `DECISIONES.md` y en su copia de `prompts/`).
 - **Límites:** no usa Gmail. No carga accionables: se los pasa a Gmail + Notion. No minuta la Reunión Gerencial hasta que Agustín lo defina.
 
 ## Sesiones que no son agentes
