@@ -9,5 +9,5 @@ Resumen del prompt:
 4. Si hay grabación: cruzarla con Calendar y `PERSONAS.md` y crear la fila en MINUTAS con resumen y accionables, sin inventar nada.
 5. Mandarle los accionables a Gmail + Notion citando las entradas del 27/11 y pasar la columna Accionables a "Enviado a GMAIL + NOTION" (o a "Sin accionables" si no hubo).
 6. A los 15 minutos, verificar que la minuta haya quedado en "Cargados".
-7. Informe corto para Agustín: qué funcionó, la minuta en limpio y el link. Después proponerle la tarea recurrente (cada hora, L-V de 9 a 19) y pedirle OK antes de crearla.
+7. Informe corto para Agustín: qué funcionó y qué falló en cada eslabón, la minuta en limpio y el link. Si la recurrente trig_012PazVzVcQJu5gBwPhj7tRw ya creó la fila, no se duplica: se usa esa. Ya no propone tarea recurrente (existe desde el 27/11).
 8. Registrar en `DECISIONES.md` y avisarle a ORQ el resultado.
