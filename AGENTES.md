@@ -89,9 +89,9 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 - **Qué hace:** minuta las Google Meet de Agustín con la transcripción de Fathom, guarda la minuta en MINUTAS (Notion) y le pasa los accionables a Gmail + Notion.
 - **Dónde corre:** sesión `session_01Pa7M7g2Na4ZgaoacJGgF67` ("MINUTADOR DE REUNIONES").
 - **Tareas programadas:**
-  - Primera corrida real · `trig_0181ENuzTeNLMwEtCBuy4Rir` · única, 1/12/2026 11:45, en su sesión. Minuta del "Onboarding Victoria" (1/12 10:00-11:30), accionables a Gmail + Notion e informe a Agustín. Si no hubo grabación, reprograma para la próxima Meet (ORBIS, 2/12).
+  - Primera corrida real · `trig_0181ENuzTeNLMwEtCBuy4Rir` · única, 2/12/2026 13:15, en su sesión. Minuta de "ORBIS reunion de presentacion" (2/12 12:00-13:00), accionables a Gmail + Notion e informe a Agustín. (Se movió del 1/12: el Onboarding Victoria es presencial.)
   - Recurrente: todavía no existe. Se propone después de la primera corrida, con OK de Agustín por el consumo.
-- **Estado:** Agustín salteó el piloto y dio por buena la configuración de Fathom (27/11/2026). Primera corrida real el 1/12.
+- **Estado:** Agustín salteó el piloto y dio por buena la configuración de Fathom (27/11/2026). Primera corrida real el 2/12.
 - **Memoria:** `dominios/MINUTADOR.md`.
 - **Bitácora:** conectado desde el 27/11/2026 (lee todo; escribe en `DECISIONES.md` y en su copia de `prompts/`).
 - **Límites:** no usa Gmail. No carga accionables: se los pasa a Gmail + Notion. No minuta la Reunión Gerencial hasta que Agustín lo defina.

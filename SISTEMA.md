@@ -88,7 +88,7 @@ Cómo funciona hoy el sistema de agentes, con los IDs técnicos. Sin credenciale
 - Mediados de diciembre 2026: avisar a Agustín para recargar el crédito de Anthropic de Gerente de Ventas (prepago sin recarga automática; ~USD 3,30 al 25/11).
 - ~21/02/2027: fin de la prueba gratuita de Google Cloud. Avisar antes para "activar cuenta completa".
 - Marzo 2027: preguntar si VIETUR trabaja el Jueves Santo (25/03/2027).
-- 1/12/2026 11:45: primera corrida real de MINUTADOR (Onboarding Victoria).
+- 2/12/2026 13:15: primera corrida real de MINUTADOR (ORBIS reunion de presentacion).
 - 3/12/2026: primera corrida automática de Presupuestos Europamundo (carga 10:12, envío 11:00-11:30, chequeo del agente 11:45).
 - ~1/12/2026: llega el reporte de ventas de noviembre de Europamundo (carga a pedido).
 

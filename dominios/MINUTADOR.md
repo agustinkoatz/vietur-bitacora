@@ -2,7 +2,7 @@
 
 Arma la minuta de cada Google Meet de Agustín a partir de la transcripción de Fathom, la guarda en la base MINUTAS de Notion y le pasa los accionables a Gmail + Notion. IDs en `SISTEMA.md`.
 
-Última revisión: 27/11/2026 · ORQ, con el informe del agente. Estado: **primera corrida real el 1/12/2026** (sin piloto, por decisión de Agustín).
+Última revisión: 27/11/2026 · ORQ, con el informe del agente. Estado: **primera corrida real el 2/12/2026** (sin piloto, por decisión de Agustín).
 
 ## Proceso
 1. Fathom (plan gratis) entra como bot "Fathom Notetaker" a las Meets del Calendar de agustin@vietur.com.ar y transcribe.
@@ -16,6 +16,7 @@ Arma la minuta de cada Google Meet de Agustín a partir de la transcripción de 
 
 ## Reglas de Agustín
 - Minutar todas sus reuniones de Google Meet, propias o de otros.
+- Las reuniones presenciales no se minutan por Fathom aunque el evento tenga link de Meet. Si hay duda, preguntarle a Agustín.
 - La minuta lleva fecha, participantes, temática, resumen y accionables. Lo más importante son los accionables.
 - Los accionables los carga Gmail + Notion, no MINUTADOR.
 - Herramienta gratuita: Fathom.
@@ -40,7 +41,7 @@ Arma la minuta de cada Google Meet de Agustín a partir de la transcripción de 
 - No se crea fila en MINUTAS para esta reunión.
 
 ## Pendientes y riesgos
-- Primera corrida: 1/12/2026 11:45 (`trig_0181ENuzTeNLMwEtCBuy4Rir`), con el "Onboarding Victoria".
+- Primera corrida: 2/12/2026 13:15 (`trig_0181ENuzTeNLMwEtCBuy4Rir`), con "ORBIS reunion de presentacion".
 - Tarea recurrente: se propone después de esa corrida. Propuesta del agente: cada hora L-V de 9 a 19; alternativa de ORQ: 3 veces por día (12, 16 y 19), más barata. Necesita OK de Agustín por el consumo.
 - En reuniones organizadas por otros, alguien tiene que admitir al bot.
 - El plan gratis de Fathom puede cambiar. Fathom no transcribe reuniones sin Meet.
