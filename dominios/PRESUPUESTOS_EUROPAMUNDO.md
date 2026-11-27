@@ -40,6 +40,6 @@ Carga semanal de los presupuestos de PARTICULARES del portal de Europamundo en e
 - Primera corrida automática: jueves 3/12. El agente tiene un chequeo a las 11:45 (`trig_01FdvCnzYhzbroXFFaNVpAL1`).
 - Si la carga tarda más de ~50 minutos, el envío corre antes y no manda nada esa semana. Los mails salen el jueves siguiente.
 - Si Europamundo cambia el Excel o el login, la tarea falla sin pegar (control de encabezados).
-- El código del Apps Script vive solo en el Sheet.
-- Datos personales: se contacta a particulares que no dieron su mail a Davetur, y el mail no tiene opción de baja. Pendiente de decisión de Agustín.
+- El código del Apps Script vive en el Sheet; copia en `respaldos/davetur_apps_script/Codigo.gs`.
+- Opción de baja en los mails: Agustín decidió no agregarla (27/11/2026). No volver a proponerla.
 - Correrlo 2 veces por semana para ganar velocidad: sugerido, no decidido.
