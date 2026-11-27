@@ -56,7 +56,7 @@ Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google 
 - Tarea trabada porque depende de que otra persona mande algo: sale de BACKLOG (con OK de Agustín) y pasa a FUP a esa persona, con la tarea en Notas. Cuando responde, vuelve a BACKLOG y se avisa. BACKLOG tiene solo lo que Agustín puede hacer ya.
 - Todas las vistas de BACKLOG y ROADMAP ocultan Hecho. No se borran filas.
 - La tarea de los miércoles se llama "Disponibilidad Cupos" (no "Listar…").
-- BACKLOG y ROADMAP los maneja Agustín: el agente agrega filas solo si él lo pide o por las reglas de arriba. ROADMAP no se toca.
+- BACKLOG y ROADMAP los maneja Agustín: el agente agrega filas solo si él lo pide, por las reglas de arriba o por los accionables de MINUTADOR. Fuera de eso, ROADMAP no se toca.
 - No implementar vistas tipo Pareto ("Lo que importa", "Tus 3 de hoy"): Agustín lo rechazó por ahora.
 
 ## Accionables de MINUTADOR (desde 27/11/2026)
