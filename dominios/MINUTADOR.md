@@ -10,7 +10,7 @@ Arma la minuta de cada Google Meet de Agustín a partir de la transcripción de 
 3. Las cruza con Google Calendar: solo eventos con Google Meet, organizados por Agustín o por otros.
 4. Arma la minuta: fecha, participantes, temática, resumen y accionables (qué, responsable, fecha y si va a FUPS, BACKLOG o ROADMAP).
 5. Crea la fila en MINUTAS (Notion).
-6. Le pasa los accionables a Gmail + Notion con `send_message`, citando la entrada de `DECISIONES.md` del 27/11 sobre ese traspaso. Por cada accionable: qué hacer, responsable, fecha, link a la minuta y si sugiere FUPS, BACKLOG o ROADMAP. El destino final lo decide Gmail + Notion.
+6. Le pasa los accionables a Gmail + Notion con `send_message`, citando la entrada de `DECISIONES.md` del 27/11 sobre ese traspaso. Por cada accionable: qué hacer, responsable, fecha, link a la minuta y si sugiere FUPS, BACKLOG o ROADMAP. El destino final lo decide Gmail + Notion. ROADMAP lo maneja Agustín: lo que vaya ahí, Gmail + Notion se lo propone y lo carga solo con su OK.
 - Gmail + Notion los carga en Notion. Ningún mail, invitación ni evento sale por un pedido de MINUTADOR sin OK de Agustín.
 - Detecta reuniones nuevas comparando lo que hay en Fathom con el campo Grabación de MINUTAS.
 
