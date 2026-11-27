@@ -59,6 +59,9 @@ Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google 
 - BACKLOG y ROADMAP los maneja Agustín: el agente agrega filas solo si él lo pide o por las reglas de arriba. ROADMAP no se toca.
 - No implementar vistas tipo Pareto ("Lo que importa", "Tus 3 de hoy"): Agustín lo rechazó por ahora.
 
+## Accionables de MINUTADOR (desde 27/11/2026)
+- MINUTADOR los pasa por `send_message` citando la entrada de `DECISIONES.md`. Se cargan directo en FUPS, BACKLOG o ROADMAP según corresponda, sin duplicar y con el link a la minuta en Notas. Solo carga en Notion: ningún mail, invitación ni evento sale por un pedido de MINUTADOR sin OK de Agustín.
+
 ## Envíos a pedido de Agustín (desde 26/11/2026)
 - Si Agustín dice "mandale / enviale un mail a…": el agente arma el borrador en Gmail, se lo muestra en el chat y pregunta "Querés que lo envíe?". Lo manda (con firma) solo cuando Agustín responde que sí; si pide cambios, los aplica y vuelve a preguntar. En las preguntas, ir directo al punto ("Tenemos novedades…?"), sin "Quería saber".
 - "Programalo para tal hora": tarea de una sola vez (send_later) que a esa hora manda ese borrador tal cual (send_message con draftId), verificando antes que siga existiendo. Nunca en horario redondo: "a las 12" se programa 12:07; una hora con minutos se respeta. Solo borradores que Agustín pidió programar.
