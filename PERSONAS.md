@@ -22,7 +22,8 @@ Quién es quién y cómo los trata Agustín. Antes de redactar a alguien, copiar
 | Patricia Robson | administracion1@ | Administración | Pato, Patri |
 | Adriana Sarno | administracion@ | Administración, cobranzas de facturas Newton (TKT, TIJE) | |
 | Natalia Godino | desarrollo@ | Gerente de Desarrollo Estratégico. Recibe altas de agencias (sin FUP) | Naty |
-| Cinthia Sznaider | producto@ | Gerente de Producto. Aprueba el VIE NEWS; los viernes manda el "Calendario de difusiones" para aprobar | Cin |
+| Cinthia Sznaider | producto@ | Gerente de Producto. Aprueba el VIE NEWS y, por ahora, también manda sus textos; los viernes manda el "Calendario de difusiones" para aprobar | Cin |
+| Lara | (sin confirmar) | Producto. Por ahora manda los textos del VIE NEWS junto con Cinthia. Apellido y casilla sin confirmar: no asumir que es Lara Crupnicoff ni la Lara de la web VIE | |
 | Lucila Hazaña | ventas@ | Gerente de ventas (se la mide como una vendedora más) | Lula |
 | Maribel | ventas1@ | Ventas | |
 | Aixa | ventas3@ | Ventas | |
