@@ -11,6 +11,8 @@ Cómo funciona hoy el sistema de agentes, con los IDs técnicos. Sin credenciale
 | 8:32 todos los días | Mail "Briefing diario \| Infobae + Ladevi" | Briefing |
 | 9:20 a 19:20 L-V, cada 2 h | Pasada liviana, sin mails | Gmail + Notion |
 | 10:00 y tarde L-V | SESIÓN 60' en Calendar | Agustín (el agente las ajusta) |
+| 10:12 jue | Carga de presupuestos de particulares en el Sheet de Davetur | Presupuestos Europamundo |
+| 11:00 a 11:30 jue | Envío de mails desde ventas@davetur.com.ar (Apps Script) | Sheet de Davetur |
 | 8:38 a 18:38 vie, cada hora | Revisión VIE NEWS (sin mails, push si hay revisión) | VIE NEWS |
 | 17:30 vie | Mail "Newton \| Resumen semanal" | Newton PM |
 | 18:30 L-V sin feriados | Mail "Resumen de ventas" | Gerente de Ventas (Google Cloud) |
@@ -49,6 +51,14 @@ Cómo funciona hoy el sistema de agentes, con los IDs técnicos. Sin credenciale
 - Respaldo del script del briefing: `respaldos/briefing/` de este repo (el de Drive está desactualizado).
 - Manual de voz (respaldo de la skill): Google Doc `1jKZeyYBfFHyHsfyap2GqBaqzP4gwFBnooxBFMGe4lZE`.
 
+## Europamundo
+- Portal: europamundo-online.com (hosts permitidos en el environment Default). Usuario dedicado; la clave vive solo en el prompt de `trig_01HRnXfeumK9A7XtuggHyYtd`.
+- Sheet "Davetur_Listado_de_Presupuestos" `15746MMuwXqj_K7YLjSuYiu2JFs-NjL67EfNEXdsp96Y`, pestaña "Listado de Presupuestos (1)" (sheetId 255600384). Columnas A presupuesto, B viaje, C fecha viaje, D plazas, E país, F email, G particular/agencia, H fecha presupuesto, I validez, J estado (ENVIADO), K y L fechas.
+- Apps Script del Sheet (corre como ventas@davetur.com.ar): onOpen (menú DAVETUR), enviarPrueba, enviarMails (botón), enviarMailsAutomatico (tope 80, resumen por mail), instalarEnvioAutomatico, obtenerFirmaGmail, crearMail, enviarPorGmailApi, avisar_. Remitente "Ventas | Davetur", asunto "Consulta sobre {circuito}", firma de Gmail de esa casilla. El código vive solo en el Sheet.
+- Cuentas: agustin@biotour.com.ar (Google conectada a Claude, edita el Sheet); ventas@davetur.com.ar (envía, dueña del script); agustin@vietur.com.ar (pruebas y resúmenes).
+- Planilla "Numbers" `1SMn0HxPXJbPnh9jfFzmwfnXF1hQ5AnGC1olis3M7yIs`, solapa VENTA EUROPAMUNDO (sheetId 905120001), después de PAX VIAJADOS POR DESTINO.
+- Reporte de ventas mensual: lo manda comercial@europamundo.com a Alberto, Vanesa y Carmen Ramírez, asunto "Reporte de Ventas VIETUR (ARGENTINA) del … al …", entre el día 1 y el 5.
+
 ## Trello (Newton)
 - Tablero "DESARROLLO NEWTON": https://trello.com/b/ubQB5nDv/desarrollo-newton · ARI `ari:cloud:trello::board/workspace/656f1bc2526ec54b5e36d4e1/6ac3c8b15f4ee3fae6169f92`.
 - Listas: SPRINT 1 `6ac3c8b25f4ee3fae6169f98` · MEJORAS - ROAD MAP `6ad150965d29587cceacac24` · PRIORIDAD `6ac3caab87c53bfa0ac8247e` · EN PROCESO `6ac3c8b25f4ee3fae6169f99` · TERMINADOS MES 1 `6ac3c9677706750d52070518` · TERMINADOS MES 2 `6aea273c032e8d441d60f8c3` · PENDIENTE DE RESPUESTA CLIENTE `6ac420c768a3aa91155d39f3` · INFORMACION `6ac3c8ef20a8d43a55343152` · MEJORAS ROAD MAP FINALIZADO `6ae252b8acdc3dacfe8cdca5`.
@@ -73,6 +83,8 @@ Cómo funciona hoy el sistema de agentes, con los IDs técnicos. Sin credenciale
 - Mediados de diciembre 2026: avisar a Agustín para recargar el crédito de Anthropic de Gerente de Ventas (prepago sin recarga automática; ~USD 3,30 al 25/11).
 - ~21/02/2027: fin de la prueba gratuita de Google Cloud. Avisar antes para "activar cuenta completa".
 - Marzo 2027: preguntar si VIETUR trabaja el Jueves Santo (25/03/2027).
+- 3/12/2026: primera corrida automática de Presupuestos Europamundo (carga 10:12, envío 11:00-11:30, chequeo del agente 11:45).
+- ~1/12/2026: llega el reporte de ventas de noviembre de Europamundo (carga a pedido).
 
 ## Feriados Argentina (referencia)
 08/12, 25/12, 01/01, Carnaval 08 y 09/02/2027, 24/03, Jueves Santo 25/03/2027 (no laborable), Viernes Santo 26/03/2027, 02/04, 01/05, 25/05, 17/06 (trasladable), 20/06, 09/07, 17/08 (trasladable), 12/10 (trasladable), 20/11 (trasladable). Verificar siempre en argentina.gob.ar/interior/feriados.

@@ -46,7 +46,10 @@ Quién es quién y cómo los trata Agustín. Antes de redactar a alguien, copiar
 ## Externos
 - **Eli (María Elizabeth Baigorria)**, Universal Assistance (mariabaigorria@universal-assistance.com), GSA del interior: "Hola Eli, cómo estás?" y cierra con "Un beso".
 - **Matías Yaskowiak**: diseñador del VIE NEWS (recibe "Solicitud Newsletter Resumen Semanal"). Tiene etiqueta propia en Gmail.
-- **Carmen Ramírez**: Europamundo.
+- **Carmen Ramírez** (carmen.ramirez@europamundo.com): Europamundo. Recibe el reporte de ventas mensual.
+- **comercial@europamundo.com**: manda el reporte de ventas mensual de VIETUR.
+- **"Pablo" de Davetur**: firma de los mails a particulares que salen de ventas@davetur.com.ar. Davetur funciona como agencia minorista para que VIETUR no contacte al público como mayorista.
+- **Lucas Osuna** (lucasozuna@gmail.com): lista negra de Presupuestos Europamundo, nunca se le escribe.
 - Estilo con externos: "Hola [Nombre], cómo estás?", contexto en 1-2 líneas, pedido explícito, cierre "Quedo atento" o "Un abrazo". Sin abreviaturas informales.
 
 ## Cuentas clave

@@ -66,6 +66,25 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 - **Bitácora:** conectado desde el 25/11/2026 (lee todo; escribe solo en `DECISIONES.md`).
 - **Límites:** no envía, no responde, no crea borradores. Solo crea/aplica la etiqueta "VIE NEWS-revisado". Push corto cuando hay revisión.
 
+### Presupuestos Europamundo
+- **Qué hace:** los jueves baja del portal de Europamundo los presupuestos de particulares, los limpia y los pega en el Sheet de Davetur. El envío de mails lo hace el Apps Script del Sheet desde ventas@davetur.com.ar.
+- **Dónde corre:** sesión de referencia `session_01Pa7M7iZHUiTBACpS1TXn7o` ("PRESUPUESTOS EUROPAMUNDO"). Cada corrida abre una sesión nueva con el conector Google Sheets.
+- **Tareas programadas:**
+  - "Europamundo: cargar particulares al Sheet (jueves)" · `trig_01HRnXfeumK9A7XtuggHyYtd` · jueves 10:12. Push al terminar.
+  - Chequeo único de la primera corrida · `trig_01FdvCnzYhzbroXFFaNVpAL1` · jueves 3/12 11:45, en la sesión de referencia.
+  - Fuera de Claude: activador del Apps Script `enviarMailsAutomatico`, jueves 11:00 a 11:30 (corre como ventas@davetur.com.ar).
+- **Memoria:** `dominios/PRESUPUESTOS_EUROPAMUNDO.md`. Prompt en `prompts/` con credenciales redactadas.
+- **Bitácora:** conectado desde el 27/11/2026 (lee todo; escribe en `DECISIONES.md` y en su copia de `prompts/`).
+- **Límites:** no manda mails; no toca otras filas del Sheet; no borra. La clave del portal vive solo en el prompt real de la tarea.
+
+### Reporte Ventas Europamundo
+- **Qué hace:** carga el reporte mensual de ventas de Europamundo (plazas y pax por Serie) en la solapa VENTA EUROPAMUNDO de la planilla Numbers, con comparación contra el año anterior.
+- **Dónde corre:** sesión `session_01Pa7M7iN7GeaRqEvm1b6nBL` ("REPORTE VENTAS EUROPAMUNDO").
+- **Tareas programadas:** ninguna. Trabaja a pedido; el reporte llega entre el 1 y el 5 de cada mes.
+- **Memoria:** `dominios/REPORTE_VENTAS_EUROPAMUNDO.md`.
+- **Bitácora:** pendiente de conectar. El control de permisos de su sesión frenó el `add_repo`: hace falta una línea de Agustín en su chat. Mientras tanto, ORQ registra por él.
+- **Límites:** Gmail en solo lectura; mails solo con OK de Agustín. Solo toca la solapa VENTA EUROPAMUNDO.
+
 ## Sesiones que no son agentes
 
 - "SKILL DE REDACCIÓN AK" (`session_01Pa7M7j6DKwDYBhcHx765QF`): armó la skill `agustin-koatz-voz`, que ya está activa en la cuenta. Archivada el 25/11/2026 con OK de Agustín.
