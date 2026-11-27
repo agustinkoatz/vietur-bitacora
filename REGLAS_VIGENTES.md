@@ -10,7 +10,7 @@ Todo agente de Claude de Agustín lee este archivo antes de trabajar. Solo regla
 - `AGENTES.md`: quién es cada agente, dónde corre, tareas programadas, permisos.
 - `PERSONAS.md`: equipo, proveedores, clientes y cómo los trata Agustín. Leer antes de redactar a alguien.
 - `SISTEMA.md`: herramientas, IDs técnicos y vencimientos.
-- `dominios/`: reglas propias de cada agente (Gmail + Notion, Ventas, Newton PM, Briefing, VIE NEWS, Presupuestos Europamundo, Reporte Ventas Europamundo).
+- `dominios/`: reglas propias de cada agente (Gmail + Notion, Ventas, Newton PM, Briefing, VIE NEWS, Presupuestos Europamundo, Reporte Ventas Europamundo, MINUTADOR).
 - `ARCHIVO/`: lo que ya no rige.
 - `respaldos/`: copias de código que vive fuera de un repo.
 - `prompts/`: copia de los prompts de las tareas programadas.

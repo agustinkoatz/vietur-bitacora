@@ -85,6 +85,15 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 - **Bitácora:** conectado desde el 27/11/2026 (lee todo; escribe solo en `DECISIONES.md`).
 - **Límites:** Gmail en solo lectura; mails solo con OK de Agustín. Solo toca la solapa VENTA EUROPAMUNDO.
 
+### MINUTADOR
+- **Qué hace:** minuta las Google Meet de Agustín con la transcripción de Fathom, guarda la minuta en MINUTAS (Notion) y le pasa los accionables a Gmail + Notion.
+- **Dónde corre:** sesión `session_01Pa7M7g2Na4ZgaoacJGgF67` ("MINUTADOR DE REUNIONES").
+- **Tareas programadas:** ninguna todavía. Se crea después de la prueba piloto, con OK de Agustín por el consumo.
+- **Estado:** en prueba. Falta que Agustín active la grabación automática en Fathom y haga el piloto.
+- **Memoria:** `dominios/MINUTADOR.md`.
+- **Bitácora:** pendiente de conectar (su control de permisos pide la línea de Agustín en su chat). Mientras tanto, ORQ registra por él.
+- **Límites:** no usa Gmail. No carga accionables: se los pasa a Gmail + Notion. No minuta la Reunión Gerencial hasta que Agustín lo defina.
+
 ## Sesiones que no son agentes
 
 - "SKILL DE REDACCIÓN AK" (`session_01Pa7M7j6DKwDYBhcHx765QF`): armó la skill `agustin-koatz-voz`, que ya está activa en la cuenta. Archivada el 25/11/2026 con OK de Agustín.

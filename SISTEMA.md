@@ -51,6 +51,11 @@ Cómo funciona hoy el sistema de agentes, con los IDs técnicos. Sin credenciale
 - Respaldo del script del briefing: `respaldos/briefing/` de este repo (el de Drive está desactualizado).
 - Manual de voz (respaldo de la skill): Google Doc `1jKZeyYBfFHyHsfyap2GqBaqzP4gwFBnooxBFMGe4lZE`.
 
+## MINUTAS y Fathom
+- MINUTAS (Notion): página https://app.notion.com/p/4257be59807c81fe883bc72ca211296f · base `4257be59-807c-81a7-8034-e6bdf9823829` · data source `collection://4257be59-807c-81e0-81c8-000b9fd31e10`.
+  - Propiedades: Reunión (título), Fecha, Participantes, Temática, Tipo (Equipo, Dirección, Externo), Accionables (Pendiente de pase, Enviado a GMAIL + NOTION, Cargados, Sin accionables), Cantidad accionables, Grabación (URL de Fathom), Evento Calendar (URL), N° (prefijo MINUTA).
+- Fathom (plan gratis): bot "Fathom Notetaker" en las Meets de agustin@vietur.com.ar. API api.fathom.ai; la clave vive como network secret del environment "Default".
+
 ## Europamundo
 - Portal: europamundo-online.com (hosts permitidos en el environment Default). Usuario dedicado; la clave vive solo en el prompt de `trig_01HRnXfeumK9A7XtuggHyYtd`.
 - Sheet "Davetur_Listado_de_Presupuestos" `15746MMuwXqj_K7YLjSuYiu2JFs-NjL67EfNEXdsp96Y`, pestaña "Listado de Presupuestos (1)" (sheetId 255600384). Columnas A presupuesto, B viaje, C fecha viaje, D plazas, E país, F email, G particular/agencia, H fecha presupuesto, I validez, J estado (ENVIADO), K y L fechas.
