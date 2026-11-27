@@ -54,6 +54,8 @@ Quién es quién y cómo los trata Agustín. Antes de redactar a alguien, copiar
 - Estilo con externos: "Hola [Nombre], cómo estás?", contexto en 1-2 líneas, pedido explícito, cierre "Quedo atento" o "Un abrazo". Sin abreviaturas informales.
 
 ## Cuentas clave
+- **CMS Travel** (Belgrano): agencia cliente que Agustín le pasó a Cele (12/05/2026). En BACKLOG/FUPS figura como "CMS".
+- **Lucas Klenk** (lklenk@e2etravelsolutions.com), E2E Travel Solutions: B2 dado de baja el 27/11/2026. **Joaquín Navasal**: Starlings, sigue aparte.
 - **Proveedor prioritario:** Europamundo (presencia en VIE NEWS cuando hay novedad comercial).
 - **Cuentas grandes:** TIJE, Europamundo.
 - **Proveedores frecuentes:** Special Tours, Surland, Europamundo, VPT, Euroriente, Civitatis, receptivos.

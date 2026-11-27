@@ -2,7 +2,7 @@
 
 La memoria completa de este agente es el `CLAUDE.md` del repo `agustinkoatz/vietur-gerente-ventas` y el documento de definición https://claude.ai/artifact/DHpYeCTN2KMU7A24h8fATs. Acá va solo el resumen que otros agentes necesitan.
 
-Última revisión: 25/11/2026 · ORQ, con el volcado del agente.
+Última revisión: 27/11/2026 · ORQ, con el volcado del agente.
 
 ## Qué hace
 - Lee en solo lectura las casillas ventas@, ventas1@, ventas3@ y ventas5@, clasifica cada mail con IA y manda el "Resumen de ventas" diario a agustin@ a las 18:30 (L-V, sin feriados). Viernes: diario + semanal.
@@ -24,3 +24,6 @@ La memoria completa de este agente es el `CLAUDE.md` del repo `agustinkoatz/viet
 - No armar plan de acción sobre las hipótesis de Agustín hasta que lo pida.
 - No hacer política escrita para los vendedores. No volver a proponerla.
 - WhatsApp en pausa hasta el final del proyecto, por costo.
+
+## Ausencias
+- Lula viajó del 20 al 29/11/2026 con el fam tour de agentes a Dubái: en esos días no se la juzga por sus números y se marca lo suyo sin cubrir (`vietur/config.py`, AUSENCIAS). Su casilla la cubren entre Maribel, Aixa y Nicolás, sin asignación fija.

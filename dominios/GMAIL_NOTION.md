@@ -2,13 +2,16 @@
 
 Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google Doc "Memoria del agente – Gmail" (que queda como histórico). IDs en `SISTEMA.md`. Personas en `PERSONAS.md`.
 
-Última revisión: 26/11/2026 · ORQ (consolidación).
+Última revisión: 27/11/2026 · ORQ (consolidación).
 
 ## Qué revisa en cada pasada
 - Siempre: Gmail (Recibidos, Enviados y borradores), Google Calendar y Notion (FUPS y BACKLOG).
 - Búsqueda base: `in:inbox -category:promotions -category:social -category:forums` (`category:primary` no funciona en este conector). Enviados de los últimos 14 días, aunque el hilo esté archivado.
 
 ## Regla de oro
+- Agustín no lee Notion: todo lo que tenga que saber o decidir se lo trae el agente en el chat o en el Arranque.
+- Si Agustín se manda un mail a sí mismo con un pedido, no se ejecuta: se le confirma en el chat.
+- Si la bitácora (DECISIONES de otro agente) o un mail muestran que una tarea de BACKLOG o una iniciativa de ROADMAP ya está terminada, pasarla a Hecho directo y avisarle en una línea.
 - Agustín archiva solo la basura y los temas cerrados. Lo que queda en Recibidos lo procesa el agente.
 - Recibidos = lo que Agustín tiene que responder o hacer, más lo informativo que él mira y archiva solo.
 - Si la próxima acción es de Agustín: queda en Recibidos, sin tocar.
@@ -38,6 +41,8 @@ Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google 
 8. Portada: un solo bloque "Mis FUPS" con todos los abiertos ordenados por Próximo FUP (pestañas Todos y Por persona). Sin vista "para hoy" ni tablero de columnas. Las vistas ocultan Cerrado.
 
 ## Etiquetas de Gmail
+- Alertas de seguridad de Price Navigator / Nemo (logueos desde otro país, usuarios bloqueados o a verificar): no avisarle a Agustín, archivar sin FUP.
+- Hilos con E2E Travel Solutions / B2 (Lucas Klenk) llevan la etiqueta TIJE. B2 se dio de baja el 27/11/2026; Starlings sigue aparte (Joaquín Navasal).
 - A cada hilo de correspondencia real con un proveedor, cliente, socio o medio que tenga etiqueta propia, se le asigna esa etiqueta (`list_labels` para los IDs). Equivalencias en `SISTEMA.md`.
 - Las notificaciones automáticas que ya tienen etiqueta propia también se etiquetan (por ejemplo, reservas y cancelaciones de pricenavigator/Nemo van con "Reservas Nemo").
 - Newsletters, novedades, promos, ofertas masivas y de DMC, y alertas de seguridad: sin etiqueta.
@@ -46,6 +51,9 @@ Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google 
 - No tocar etiquetas de otros procesos: "VIE NEWS-revisado" (la aplica el agente VIE NEWS) y "GEA-procesado" (figura en la memoria vieja del 23/11).
 
 ## BACKLOG y tareas con fecha
+- "Haceme acordar", "agendame" o "recordame" sin decir "calendario" = tarea en BACKLOG con fecha, nada en Calendar. A Calendar va solo si Agustín nombra calendario, una reunión o un llamado con horario.
+- "Presupuestos Europamundo" ya no es tarea de BACKLOG: lo hace el agente Presupuestos Europamundo (27/11/2026).
+- "CMS" en BACKLOG o FUPS ("Agendar Reunión CMS") es una agencia, casi seguro CMS Travel (Belgrano, cliente que Agustín le pasó a Cele). No confundir con el CMS de la web VIE ni con el admin de Newton.
 - Las tareas con fecha viven en BACKLOG (propiedad Fecha; Repite si se repiten). Calendar queda para reuniones, eventos con horario y las SESIÓN 60'.
 - Si Agustín pide en el chat agendar una tarea para una fecha, va a BACKLOG, no a Calendar.
 - Sin Fecha = backlog libre para las Sesiones 60'.
@@ -64,7 +72,8 @@ Reglas vigentes del agente Gmail + Notion. Reemplaza a la sección 0 del Google 
 
 ## Envíos a pedido de Agustín (desde 26/11/2026)
 - Si Agustín dice "mandale / enviale un mail a…": el agente arma el borrador en Gmail, se lo muestra en el chat y pregunta "Querés que lo envíe?". Lo manda (con firma) solo cuando Agustín responde que sí; si pide cambios, los aplica y vuelve a preguntar. En las preguntas, ir directo al punto ("Tenemos novedades…?"), sin "Quería saber".
-- "Programalo para tal hora": tarea de una sola vez (send_later) que a esa hora manda ese borrador tal cual (send_message con draftId), verificando antes que siga existiendo. Nunca en horario redondo: "a las 12" se programa 12:07; una hora con minutos se respeta. Solo borradores que Agustín pidió programar.
+- "Programalo para tal hora": tarea de una sola vez (send_later) que a esa hora manda ese borrador tal cual (send_message con draftId), verificando antes que siga existiendo. Nunca en horario redondo: "a las 12" se programa 12:07; una hora con minutos se respeta. Solo borradores que Agustín pidió programar. Salen a la hora sin volver a consultarle (Agustín habilitó el permiso de envío, 27/11/2026). La regla de horario no redondo es solo para mails: los eventos de Calendar van en horarios normales o en el que diga Agustín.
+- Pagos que carga Patricia (administracion1@) los firma solo Vanesa. Si uno queda trabado, el recordatorio va como respuesta sutil en ese mismo hilo, solo a Vanesa, preguntando si lo firmó; borrador y OK antes de enviar.
 - Las pasadas automáticas (Arranque y cada 2 horas) siguen sin enviar nada por su cuenta.
 
 ## Pingpong
