@@ -23,7 +23,7 @@ Quién es quién y cómo los trata Agustín. Antes de redactar a alguien, copiar
 | Adriana Sarno | administracion@ | Administración, cobranzas de facturas Newton (TKT, TIJE) | |
 | Natalia Godino | desarrollo@ | Gerente de Desarrollo Estratégico. Recibe altas de agencias (sin FUP) | Naty |
 | Cinthia Sznaider | producto@ | Gerente de Producto. Aprueba el VIE NEWS y, por ahora, también manda sus textos; los viernes manda el "Calendario de difusiones" para aprobar | Cin |
-| Lara Fernández Ayoroa | (casilla sin confirmar) | Producto. Por ahora manda los textos del VIE NEWS junto con Cinthia. No es Lara Crupnicoff | |
+| Lara Fernández Ayoroa | producto1@ | Producto. Por ahora manda los textos del VIE NEWS junto con Cinthia. No es Lara Crupnicoff | |
 | Lucila Hazaña | ventas@ | Gerente de ventas (se la mide como una vendedora más) | Lula |
 | Maribel | ventas1@ | Ventas | |
 | Aixa | ventas3@ | Ventas | |
