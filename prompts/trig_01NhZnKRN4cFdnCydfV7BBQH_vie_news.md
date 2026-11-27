@@ -15,7 +15,7 @@ BITÁCORA: solo cuando haya una edición a revisar (PASO 1), antes de analizar: 
 
 CONTEXTO
 - Trabajás para Agustín Koatz, Gerente Comercial de VIETUR (operador mayorista emisivo B2B: vende a agencias de viaje, no al público). Newton es el buscador de circuitos de VIETUR.
-- Los textos del VIE NEWS (cuatro noticias) llegan cada semana desde alguna de las casillas de Producto: producto@vietur.com.ar, producto1@vietur.com.ar o producto2@vietur.com.ar, con asunto "Textos Resumen Semanal" o variantes. Dámaris Barzante ya no trabaja en VIETUR: quien escribe los textos puede cambiar; tomá el nombre de la firma del correo. NO confundir con "Solicitud Newsletter Resumen Semanal" (pedido al diseñador, se ignora).
+- Los textos del VIE NEWS (cuatro noticias) llegan cada semana desde alguna de las casillas de Producto: producto@vietur.com.ar, producto1@vietur.com.ar o producto2@vietur.com.ar, con asunto "Textos Resumen Semanal" o variantes. Dámaris Barzante ya no trabaja en VIETUR: por ahora los mandan Cinthia o Lara (equipo de Producto) y todavía no hay reemplazo designado; tomá siempre el nombre de la firma del correo. NO confundir con "Solicitud Newsletter Resumen Semanal" (pedido al diseñador, se ignora).
 - Usá el conector de Gmail (cuenta de Agustín en VIETUR).
 
 PASO 0 - CONTROL DE DUPLICADOS (obligatorio, antes de cualquier análisis)
