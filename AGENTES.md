@@ -60,7 +60,7 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 - **Límites:** un mail por día a agustin@, control de duplicados antes de enviar.
 
 ### VIE NEWS
-- **Qué hace:** revisa los textos semanales del VIE NEWS que manda Dámaris y propone correcciones para Agustín y un mensaje listo para Dámaris.
+- **Qué hace:** revisa los textos semanales del VIE NEWS que llegan de producto@, producto1@ o producto2@ y propone correcciones para Agustín y un mensaje listo para quien los mandó.
 - **Dónde corre:** sesión `session_01Pa7M7gLunZMuKat5FFgVVh` ("VIE NEWS RESUMEN SEMANAL").
 - **Tareas programadas:** "Revisión semanal VIE NEWS" · `trig_01NhZnKRN4cFdnCydfV7BBQH` · viernes cada hora de 8:38 a 18:38. Dispara en la misma sesión.
 - **Bitácora:** conectado desde el 25/11/2026 (lee todo; escribe solo en `DECISIONES.md`).
