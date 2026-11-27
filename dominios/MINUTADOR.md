@@ -2,7 +2,7 @@
 
 Arma la minuta de cada Google Meet de Agustín a partir de la transcripción de Fathom, la guarda en la base MINUTAS de Notion y le pasa los accionables a Gmail + Notion. IDs en `SISTEMA.md`.
 
-Última revisión: 27/11/2026 · ORQ, con el informe del agente. Estado: **en prueba, todavía no en producción**.
+Última revisión: 27/11/2026 · ORQ, con el informe del agente. Estado: **primera corrida real el 1/12/2026** (sin piloto, por decisión de Agustín).
 
 ## Proceso
 1. Fathom (plan gratis) entra como bot "Fathom Notetaker" a las Meets del Calendar de agustin@vietur.com.ar y transcribe.
@@ -40,8 +40,8 @@ Arma la minuta de cada Google Meet de Agustín a partir de la transcripción de 
 - No se crea fila en MINUTAS para esta reunión.
 
 ## Pendientes y riesgos
-- Agustín tiene que activar en Fathom la grabación automática de todas las reuniones y el idioma español, y hacer la prueba piloto (MINUTA-1).
-- Tarea programada: se crea después del piloto. Propuesta del agente: cada hora L-V de 9 a 19. Necesita OK de Agustín por el consumo.
+- Primera corrida: 1/12/2026 11:45 (`trig_0181ENuzTeNLMwEtCBuy4Rir`), con el "Onboarding Victoria".
+- Tarea recurrente: se propone después de esa corrida. Propuesta del agente: cada hora L-V de 9 a 19; alternativa de ORQ: 3 veces por día (12, 16 y 19), más barata. Necesita OK de Agustín por el consumo.
 - En reuniones organizadas por otros, alguien tiene que admitir al bot.
 - El plan gratis de Fathom puede cambiar. Fathom no transcribe reuniones sin Meet.
 - La clave de la API de Fathom vive como network secret del environment "Default" (host api.fathom.ai). No se copia a la bitácora.
