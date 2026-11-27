@@ -82,7 +82,7 @@ Registro de todos los agentes de Agustín. Lo mantiene ORQ. Si creás un agente,
 - **Dónde corre:** sesión `session_01Pa7M7iN7GeaRqEvm1b6nBL` ("REPORTE VENTAS EUROPAMUNDO").
 - **Tareas programadas:** ninguna. Trabaja a pedido; el reporte llega entre el 1 y el 5 de cada mes.
 - **Memoria:** `dominios/REPORTE_VENTAS_EUROPAMUNDO.md`.
-- **Bitácora:** pendiente de conectar. El control de permisos de su sesión frenó el `add_repo`: hace falta una línea de Agustín en su chat. Mientras tanto, ORQ registra por él.
+- **Bitácora:** conectado desde el 27/11/2026 (lee todo; escribe solo en `DECISIONES.md`).
 - **Límites:** Gmail en solo lectura; mails solo con OK de Agustín. Solo toca la solapa VENTA EUROPAMUNDO.
 
 ## Sesiones que no son agentes
